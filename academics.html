@@ -1,0 +1,2551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOR | DU</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/about-us.css">
+  <link rel="stylesheet" href="style/administration.css">
+  <link rel="stylesheet" href="style/research&innovation.css">
+  <link rel="stylesheet" href="style/academics.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <!-- HEADER -->
+  <header class="header">
+    <div class="left-header">
+      <a href="https://www.du.ac.in/" target="_blank" class="header-link">
+        DU Website
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="16" width="16"
+          fill="currentColor">
+          <path d="M448 80v352c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V80c0-26.51 
+            21.49-48 48-48h352c26.51 0 48 21.49 48 48zm-88 16H248.029c-21.313 0-32.08 
+            25.861-16.971 40.971l31.984 31.987L67.515 364.485c-4.686 4.686-4.686 12.284 
+            0 16.971l31.029 31.029c4.687 4.686 12.285 4.686 16.971 
+            0l195.526-195.526 31.988 31.991C358.058 263.977 384 253.425 
+            384 231.979V120c0-13.255-10.745-24-24-24z" />
+        </svg>
+      </a>
+
+      <a href="mailto:head@or.du.ac.in" class="header-link">✉️ head@or.du.ac.in</a>
+      <a href="#" class="header-link">Department Brochure</a>
+      <a href="#" class="header-link">Virtual Tour</a>
+    </div>
+
+
+    <div class="right-header">
+
+      <!-- Login -->
+      <div class="login-dropdown">
+        <button class="dropbtn">Login</button>
+        <div class="dropdown-content">
+          <a href="https://slc.uod.ac.in/">Students (or)<br>Ex-Students</a>
+          <a href="#">Alumni</a>
+          <a href="https://slc.uod.ac.in/">Faculty and Staff</a>
+        </div>
+      </div>
+
+      <!-- Font Size Control -->
+      <button onclick="adjustFontSize(1)">A+</button>
+      <button onclick="adjustFontSize(-1)">A-</button>
+
+      <!-- Theme Toggle -->
+      <button onclick="toggleTheme()">🌓 Theme</button>
+
+      <!-- Login Dropdown -->
+
+
+
+    </div>
+    </div>
+  </header>
+
+  <div class="top-full-header">
+
+    <div class="main-header">
+      <div class="left-logo">
+        <a href="https://www.du.ac.in/">
+          <img src="img/DULOGO.png" alt="DU Logo" class="logo" width="130" height="130">
+        </a>
+
+      </div>
+
+      <div class="center-logo">
+        <a href="index.html">
+          <img src="img/ORLOGO.png" alt="Department Logo" class="logo" width="130" height="130">
+        </a>
+
+      </div>
+
+      <div class="right-search">
+        <form class="search-form" action="#" method="get">
+          <input type="text" placeholder="Search..." name="q">
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item dropdown">
+          <a href="index.html">Home</a>
+        </li>
+
+        <!-- About Us Menu -->
+        <li class="nav-item dropdown">
+          <a href="about-us.html">About us</a>
+          <ul class="dropdown-menu">
+            <li><a href="about-us.html#welcome">Welcome</a></li>
+            <li><a href="about-us.html#history">History</a></li>
+            <li><a href="about-us.html#vision-mission">Vision and Mission</a></li>
+
+            <!-- Campus Submenu -->
+            <li class="dropdown-submenu">
+              <a href="about-us.html#campus">Campus</a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html#campus">Research Labs</a></li>
+                <li><a href="about-us.html#campus">Seminar & Lecture Rooms</a></li>
+                <li><a href="about-us.html#campus">Research Scholar Room</a></li>
+                <li><a href="about-us.html#campus">Computer Lab</a></li>
+                <li><a href="about-us.html#campus">Committee Room</a></li>
+                <li><a href="about-us.html#campus">Library</a></li>
+                <li><a href="about-us.html#campus">Disabled-Friendly Campus</a></li>
+                <li><a href="about-us.html#campus">Clean and Green Campus</a></li>
+              </ul>
+            </li>
+
+            <li><a href="about-us.html#ranking">Ranking</a></li>
+
+            <!-- Accomplishments Submenu -->
+            <li class="dropdown-submenu">
+              <a href="about-us.html#accomplishments">Accomplishments<br>(Awards, Honours, PMRF)</a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html#department">Department</a></li>
+                <li><a href="about-us.html#faculty">Faculty</a></li>
+                <li><a href="about-us.html#students">Students</a></li>
+              </ul>
+            </li>
+
+            <li><a href="about-us.html#annual-reports">Annual Reports</a></li>
+            <li><a href="about-us.html#brochure">Brochure</a></li>
+            <li><a href="about-us.html#contact-us">Contact Us</a></li>
+          </ul>
+        </li>
+
+        <!-- Administration Menu -->
+        <li class="nav-item dropdown">
+          <a href="administration.html">Administration</a>
+          <ul class="dropdown-menu">
+
+            <!-- Committees Submenu -->
+            <li class="dropdown-submenu">
+              <a href="administration.html#committees">Committees</a>
+              <ul class="dropdown-menu">
+                <li><a href="administration.html#iqac">Internal Quality and Assurance Committee</a></li>
+                <li><a href="administration.html#committees">Anti-Ragging/No Substance Abuse and Anti-Smoking
+                    Committee</a></li>
+                <li><a href="administration.html#committees">Anti-Sexual Harassment & Gender Sensitization Committee</a>
+                </li>
+                <li><a href="administration.html#committees">Compilation of Internal Assessment/Optional Allotment
+                    Committee</a></li>
+                <li><a href="administration.html#committees">SC/ST/OBC/PwD Students/Teaching/Non-teaching Staff
+                    Grievance Committee</a>
+                </li>
+                <li><a href="administration.html#committees">North-East Student Grievance Committee</a></li>
+                <li><a href="administration.html#committees">U-75 Net-Zero Movement on Carbon Neutral Campus</a></li>
+                <li><a href="administration.html#committees">Placement Cell Committee</a></li>
+                <li><a href="administration.html#committees">Udhmodya Scheme</a></li>
+                <li><a href="administration.html#committees">Cultural Committees</a></li>
+                <li><a href="administration.html#committees">Departmental Library Committee</a></li>
+                <li><a href="administration.html#committees">Department Sports Committee</a></li>
+                <li><a href="administration.html#committees">Department Website Committee</a></li>
+                <li><a href="administration.html#committees">Students Grievance Committee</a></li>
+                <li><a href="administration.html#committees">Workload/Timetable Committee</a></li>
+              </ul>
+            </li>
+
+            <!-- Redressal Mechanisms Submenu -->
+            <li class="dropdown-submenu">
+              <a href="administration.html#redressal-mechanism">Redressal Mechanisms</a>
+              <ul class="dropdown-menu">
+                <li><a href="administration.html#redressal-mechanism">SC/ST/OBC Grievance Committee</a></li>
+                <li><a href="administration.html#redressal-mechanism">North-East Student Welfare Committee</a></li>
+                <li><a href="administration.html#redressal-mechanism">Anti-Ragging/No Substance Abuse Committee</a></li>
+                <li><a href="administration.html#redressal-mechanism">Student Grievance Committee</a></li>
+
+                <!-- University Level Submenu -->
+                <li class="dropdown-submenu">
+                  <a href="administration.html#redressal-mechanism-at-du">At University Level</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="administration.html#redressal-mechanism-at-du">Student Grievance Portal</a></li>
+                    <li><a href="administration.html#redressal-mechanism-at-du">Equal Opportunity Cell (EOC)</a></li>
+                    <li><a href="administration.html#redressal-mechanism-at-du">Internal Complaints Committee (ICC)</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+        </li>
+
+        <!-- Research and Innovation -->
+        <li class="nav-item dropdown">
+          <a href="research&innovation.html">Research & Innovation</a>
+          <ul class="dropdown-menu">
+            <li><a href="research&innovation.html#research-focus-areas">Research Focus Areas</a></li>
+            <li><a href="research&innovation.html#publications">Publications</a></li>
+            <li><a href="research&innovation.html#books-authored">Books Authored</a></li>
+            <li><a href="research&innovation.html#research-grants">Research Grants</a></li>
+            <li><a href="research&innovation.html#research-scholars-thesis">Research Scholars Thesis</a></li>
+            <li><a href="research&innovation.html#projects">Projects</a></li>
+            <li><a href="research&innovation.html#patents">Patents</a></li>
+            <li><a href="research&innovation.html#collaborations">Collaborations</a></li>
+            <li><a href="research&innovation.html#phd-awarded">Ph.D. Awarded</a></li>
+          </ul>
+        </li>
+
+        <!-- Academics -->
+        <li class="nav-item dropdown">
+          <a href="academics.html">Academics</a>
+          <ul class="dropdown-menu">
+            <li><a href="academics.html#mor_du">Master of Operational Research</a></li>
+            <li><a href="academics.html#phd-intro">Ph.D. Operational Research</a></li>
+            <li><a href="academics.html#e-resources">E-resources (Library, etc.)</a></li>
+            <li><a href="academics.html#useful-links">Useful Links</a></li>
+            <li><a href="academics.html#pyq_or">PYQs with Solutions</a></li>
+            <li><a href="academics.html#academic-calander">Academic Calendar</a></li>
+            <li><a href="academics.html#timetable">Time Tables</a></li>
+            <li><a href="academics.html#examination-and-results">Examination & Results</a></li>
+          </ul>
+        </li>
+
+        <!-- Opportunities -->
+        <li class="nav-item dropdown">
+          <a href="opportunities.html">Opportunities</a>
+          <ul class="dropdown-menu">
+            <li><a href="opportunities.html#student-life">Student Life</a></li>
+            <li><a href="opportunities.html#placement">Placement</a></li>
+            <li><a href="opportunities.html#scholarship-internships">Scholarships / Internships</a></li>
+            <li><a href="opportunities.html#conferences">Conferences</a></li>
+          </ul>
+        </li>
+
+        <!-- Admission -->
+        <li class="nav-item dropdown">
+          <a href="admission.html">Admission</a>
+          <ul class="dropdown-menu">
+            <li><a href="admission.html#mor_admission">M.Sc. Operational Research</a></li>
+            <li><a href="admission.html#phd_admission">Ph.D. Operational Research</a></li>
+          </ul>
+        </li>
+
+        <!-- People -->
+        <li class="nav-item dropdown">
+          <a href="people.html">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="people.html#faculty">Faculty</a></li>
+            <li><a href="people.html#honorary-professor">Honorary Professor</a></li>
+            <li><a href="people.html#former-faculty">Former Faculty</a></li>
+            <li><a href="people.html#post-doc-fellows">Postdoc Fellows</a></li>
+            <li><a href="people.html#research-dcholars">Research Scholars</a></li>
+            <li><a href="people.html#phd-students">Ph.D. Students</a></li>
+            <li><a href="people.html#mor-students">M.Sc. Students</a></li>
+            <li><a href="people.html#former-HODs">Former HODs</a></li>
+            <li><a href="people.html#people.html">Staff</a></li>
+          </ul>
+        </li>
+
+        <!-- Alumni -->
+        <li class="nav-item dropdown">
+          <a href="alumni.html">Alumni</a>
+          <ul class="dropdown-menu">
+            <li><a href="alumni.html#alumni_cell">Alumni Relation Cell</a></li>
+            <li><a href="alumni.html#distinguished_alumni">Distinguished Alumni</a></li>
+          </ul>
+        </li>
+
+        <!-- Gallery -->
+        <li class="nav-item">
+          <a href="gallery.html">Gallery</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Event Wise Photos</a></li>
+          </ul>
+        </li>
+    </nav>
+
+
+  </div>
+
+
+  <div class="about-container">
+    <!-- Sidebar -->
+    <div class="about-sidebar">
+      <ul class="about-menu">
+
+        <!-- Master of Operational Research -->
+        <li>
+          <details>
+            <summary>Master of Operational Research (CBCS)</summary>
+            <ul>
+              <li><a href="#cbcs-intro">Introduction to CBCS (Choice Based Credit System)</a></li>
+              <li><a href="#cbcs-definitions">Definitions</a></li>
+
+              <!-- MOR Programme Details -->
+              <li>
+                <details>
+                  <summary>MOR Programme Details</summary>
+                  <ul>
+                    <li><a href="#mor-objectives">Programme Objectives</a></li>
+                    <li><a href="#mor-outcomes">Programme Specific Outcomes</a></li>
+                    <li><a href="#mor-structure">Programme Structure</a></li>
+                    <li><a href="#mor-credit">Course Credit Scheme</a></li>
+                    <li><a href="#mor-eligibility">Eligibility for Admission</a></li>
+                    <li><a href="#mor-assessment">Assessment of Students’ Performance and Scheme of Examinations</a>
+                    </li>
+                    <li><a href="#mor-promotion">Pass Percentage & Promotion Criteria</a></li>
+                    <li><a href="#mor-grading">Conversion of Marks into Grades</a></li>
+                    <li><a href="#mor-division">Division of Degree into Classes</a></li>
+                    <li><a href="#mor-attendance">Attendance Requirement</a></li>
+                    <li><a href="#mor-span">Span Period</a></li>
+                    <li><a href="#mor-internal">Guidelines for Internal Assessment Marks (Semester Wise)</a></li>
+                  </ul>
+                </details>
+              </li>
+
+              <li><a href="#mor-semester-details">Semester Wise Details of MOR Programme</a></li>
+              <li><a href="#mor-syllabus">Detailed Syllabi of MOR Programme</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- <li>
+          <details>
+            <summary>Master of Operational Research (NEP)</summary>
+            <ul>
+              <li><a href="#nep-intro">Introduction to NEP (New Education Policy)</a></li>
+              <li><a href="#nep-definitions">Definitions</a></li> -->
+
+        <!-- MOR Programme Details -->
+        <!-- <li>
+                <details>
+                  <summary>MOR Programme Details</summary>
+                  <ul>
+                    <li><a href="#mor_nep-objectives">Programme Objectives</a></li>
+                    <li><a href="#mor_nep-outcomes">Programme Specific Outcomes</a></li>
+                    <li><a href="#mor_nep-structure">Programme Structure</a></li>
+                    <li><a href="#mor_nep-credit">Course Credit Scheme</a></li>
+                    <li><a href="#mor_nep-eligibility">Eligibility for Admission</a></li>
+                    <li><a href="#mor_nep-assessment">Assessment of Students’ Performance and Scheme of Examinations</a>
+                    </li>
+                    <li><a href="#mor_nep-promotion">Pass Percentage & Promotion Criteria</a></li>
+                    <li><a href="#mor_nep-grading">Conversion of Marks into Grades</a></li>
+                    <li><a href="#mor_nep-division">Division of Degree into Classes</a></li>
+                    <li><a href="#mor_nep-attendance">Attendance Requirement</a></li>
+                    <li><a href="#mor_nep-span">Span Period</a></li>
+                    <li><a href="#mor_nep-internal">Guidelines for Internal Assessment Marks (Semester Wise)</a></li>
+                  </ul>
+                </details>
+              </li>
+
+              <li><a href="#mor_nep-semester-details">Semester Wise Details of MOR Programme</a></li>
+              <li><a href="#mor_nep-syllabus">Detailed Syllabi of MOR Programme</a></li>
+            </ul>
+          </details>
+        </li> -->
+
+        <!-- Ph.D. in Operational Research -->
+        <li>
+          <details>
+            <summary>Ph.D. in Operational Research</summary>
+            <ul>
+              <li><a href="#phd-intro">Introduction to Ph.D. Operational Research</a></li>
+              <li><a href="#phd-definitions">Definitions</a></li>
+
+              <!-- MOR Programme Details -->
+              <li>
+                <details>
+                  <summary>Ph.D. Programme Details</summary>
+                  <ul>
+                    <li><a href="#phd-objectives">Programme Objectives</a></li>
+                    <li><a href="#phd-outcomes">Programme Specific Outcomes</a></li>
+                    <li><a href="#phd-structure">Programme Structure</a></li>
+                    <!-- <li><a href="#phd-credit">Course Credit Scheme</a></li> -->
+                    <li><a href="#phd-eligibility">Eligibility for Admission</a></li>
+                    <li><a href="#phd-assessment">Scheme of Evaluation and IA</a>
+                    </li>
+                    <li><a href="#phd-duration">Duration</a>
+                    </li>
+                    <!-- <li><a href="#phd-promotion">Pass Percentage & Promotion Criteria</a></li> -->
+                    <!-- <li><a href="#phd-grading">Conversion of Marks into Grades</a></li> -->
+                    <!-- <li><a href="#phd-division">Division of Degree into Classes</a></li> -->
+                    <li><a href="#phd-attendance">Attendance Requirement</a></li>
+                    <!-- <li><a href="#phd-span">Span Period</a></li> -->
+
+                  </ul>
+                </details>
+              </li>
+
+              <li><a href="#financial-assistance">Financial Assistance</a></li>
+              <li><a href="#evaluation-and-assessment">Evaluation and Assessment of Thesis</a></li>
+
+
+              <li><a href="#phd-details">Structure of Ph.D. OR</a></li>
+              <li><a href="#phd-syllabus">Detailed Syllabi of Ph.D. Programme</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <li><a href="#e-resources">E-Resources</a></li>
+        <li><a href="#useful-links">Useful Links</a></li>
+        <li><a href="#pyq_or">Previous Year Questions (PYQs)</a></li>
+        <li><a href="#academic-calander">Academic Calander</a></li>
+        <li><a href="#timetable">Timetables</a></li>
+        <li><a href="#examination-and-results">Examination and Results</a></li>
+
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="about-content">
+
+      <!-- Welcome Section -->
+      <h2 class="about-title" id="mor_du">Master of Operational Research (CBCS)</h2>
+
+      <section class="academics">
+        <div>
+          <h3 id="cbcs-intro">Introduction to Master of Operational Research</h3> <br>
+          <p>
+            The <strong>CBCS</strong> provides an opportunity for the students to choose courses from the prescribed
+            courses comprising <strong>core, elective/minor, or skill-based courses</strong>. The courses will be
+            evaluated following the <strong>grading system</strong>, which is considered to be better than the
+            conventional marks system. <strong>Grading system</strong> provides uniformity in the evaluation and
+            computation of the <strong>Cumulative Grade Point Average (CGPA)</strong> based on student’s performance in
+            examinations, which enables the student to move across institutions of higher learning. The
+            <strong>uniformity in evaluation system</strong> also enables the <strong>potential employers</strong> in
+            assessing the performance of the candidates.
+          </p>
+        </div>
+      </section>
+
+      <h3 id="cbcs-definitions">Definition</h3>
+
+      <section class="definitions">
+        <ul class="pointers">
+          <li><strong>Academic Programme</strong>: means an entire course of study comprising its programme
+            structure, course details, evaluation schemes, etc., designed to be taught and evaluated in a teaching
+            Department/Centre or jointly under more than one such Department/Centre.</li>
+
+          <li><strong>Course</strong>: means a segment of a subject that is part of an Academic Programme.</li>
+
+          <li><strong>Programme Structure</strong>: means a list of courses (Core, Elective, Open Elective) that
+            makes up an Academic Programme, specifying the syllabus, credits, hours of teaching, evaluation and
+            examination schemes, minimum number of credits required for successful completion of the programme,
+            etc., prepared in conformity to University Rules and eligibility criteria for admission.</li>
+
+          <li><strong>Core Course</strong>: means a course that a student admitted to a particular programme must
+            successfully complete to receive the degree and which cannot be substituted by any other course.</li>
+
+          <li><strong>Elective Course</strong>: means an optional course to be selected by a student out of such
+            courses offered in the same or any other Department/Centre.</li>
+
+          <li><strong>Open Elective</strong>: means an elective course which is available for students of all
+            programmes, including students of the same department. Students of other departments may opt for these
+            courses subject to fulfilling the eligibility criteria laid down by the department offering the course.
+          </li>
+
+          <li><strong>Credit</strong>: means the value assigned to a course which indicates the level of
+            instruction. One-hour lecture per week equals 1 credit, and 2 hours of practical class per week equals 1
+            credit. Credit for a practical could be proposed as part of a course or as a separate practical course.
+          </li>
+
+          <li><strong>SGPA</strong>: means Semester Grade Point Average calculated for an individual semester.</li>
+
+          <li><strong>CGPA</strong>: is Cumulative Grade Points Average calculated for all courses completed by the
+            student at any point of time. CGPA is calculated each year for both the semesters clubbed together.</li>
+
+          <li><strong>Grand CGPA</strong>: is calculated in the last year of the course by clubbing together the
+            CGPAs of two years, i.e., four semesters. Grand CGPA is provided to the student in the form of a
+            Transcript. For the benefit of the student, a formula for the conversion of Grand CGPA into percentage
+            marks is also included in the Transcript.</li>
+        </ul>
+      </section>
+
+      <h3 id="" style="color: #652b7c;">MOR Programme Details</h3>
+
+      <section class="progrmme-details">
+        <div class="MOR-programme-details">
+          <h4 id="mor-objectives">Programme Objectives</h4>
+          <p>Spanning over a period of <strong>two years</strong> and spread across <strong>four semesters</strong>, the
+            programme emphasizes on <strong>core</strong>, <strong>elective</strong> and <strong>open elective
+              courses</strong> along with the <strong>industrial project</strong>. The <strong>Semester-I</strong> and
+            <strong>Semester-II</strong> course work stresses on the <strong>theoretical aspects</strong> for a strong
+            base, while the <strong>Semester-III</strong> and <strong>Semester-IV</strong> course work highlights
+            <strong>specialization electives</strong> and the <strong>Project Work</strong>.
+
+            Core aim of the programme is to produce <strong>good analysts</strong> who are well equipped to acquire
+            significant positions in <strong>OR groups</strong> of <strong>business</strong>,
+            <strong>government</strong>, and <strong>management consulting companies</strong>.
+          </p>
+
+          <h4 id="mor-outcomes">Programme Specific Outcomes</h4>
+          <p>
+          <p><strong>The programme is designed to:</strong></p>
+          <ul class="pointers">
+            <li><strong>Apply</strong> the analytical and practical skills learned in the course work.</li>
+            <li><strong>Inculcate and develop logical reasoning and aptitude</strong> to make the students well equipped
+              to work on complex issues.</li>
+            <li><strong>Impart comprehensive knowledge and understanding</strong> of advanced theoretical fundamentals
+              in <strong>Operational Research</strong>.</li>
+            <li><strong>Equip scholars with state-of-the-art</strong> key <strong>Research & Developments</strong> in
+              Operational Research.</li>
+            <li><strong>Provide hands-on training</strong> to the students in the form of an <strong>Industrial
+                Project</strong>, to address some significant operational issue faced by the company.</li>
+          </ul>
+          </p>
+
+          <h4 id="mor-structure">Programme Structure</h4>
+          <p>The MOR programme is a two-year course divided into four semesters. A student is required
+            to complete at least 80 credits for the completion of the course and the award of degree. <br>
+
+          <table class="academics-table">
+            <tr>
+              <thead>
+                <th>Part</th>
+                <th>Year</th>
+                <th colspan="2">Semester</th>
+              </thead>
+            </tr>
+            <tr>
+              <td><strong>Part-I</strong></td>
+              <td><strong>First Year</strong></td>
+              <td><em>Semester I</em></td>
+              <td><em>Semester II</em></td>
+            </tr>
+            <tr>
+              <td><strong>Part-II</strong></td>
+              <td><strong>Second Year</strong></td>
+              <td><em>Semester III</em></td>
+              <td><em>Semester IV</em></td>
+            </tr>
+          </table>
+          </p>
+
+          <h4 id="mor-credit">Course Credit Scheme</h4>
+          <p>
+          <ul class="pointers">
+            <li>For each Core, Elective and Open Elective Course, there will be 4 lecture hours of teaching per week.
+            </li>
+            <li>Open Electives (8 credits)</li>
+            <li>Duration of End Semester Examination of each course shall be of 3 hours </li>
+          </ul>
+
+          <table class="academics-table">
+            <thead>
+              <tr>
+                <th rowspan="2">Semester</th>
+                <th colspan="3">Core Courses</th>
+                <th colspan="3">Open Elective Course</th>
+                <th colspan="3">Elective Courses</th>
+                <th colspan="3">Project</th>
+                <th rowspan="2">Total Credits</th>
+              </tr>
+              <tr>
+                <th>No. of papers</th>
+                <th>Credits<br>(L+T or P)</th>
+                <th><strong>Total Credits</strong></th>
+
+                <th>No. of papers</th>
+                <th>Credits<br>(L+T or P)</th>
+                <th><strong>Total Credits</strong></th>
+
+                <th>No. of papers</th>
+                <th>Credits<br>(L+T or P)</th>
+                <th><strong>Total Credits</strong></th>
+
+                <th>No. of papers</th>
+                <th>Credits<br>(L+T or P)</th>
+                <th><strong>Total Credits</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>I</td>
+                <td>05</td>
+                <td>04</td>
+                <td><strong>20</strong></td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>II</td>
+                <td>04</td>
+                <td>04</td>
+                <td><strong>16</strong></td>
+                <td>01</td>
+                <td>04</td>
+                <td><strong>04</strong></td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>III</td>
+                <td>03</td>
+                <td>04</td>
+                <td><strong>12</strong></td>
+                <td>01</td>
+                <td>04</td>
+                <td><strong>04</strong></td>
+                <td>01</td>
+                <td>04</td>
+                <td><strong>04</strong></td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>IV</td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>Nil</td>
+                <td>Nil</td>
+                <td><strong>Nil</strong></td>
+                <td>03</td>
+                <td>04</td>
+                <td><strong>12</strong></td>
+                <td>01</td>
+                <td>08</td>
+                <td><strong>08</strong></td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td><strong>Total Credits<br>for the Course</strong></td>
+                <td colspan="2"></td>
+                <td><strong>48</strong></td>
+                <td colspan="2"></td>
+                <td><strong>08</strong></td>
+                <td colspan="2"></td>
+                <td><strong>16</strong></td>
+                <td colspan="2"></td>
+                <td><strong>08</strong></td>
+                <td><strong>80</strong></td>
+              </tr>
+            </tbody>
+          </table>
+          </p>
+
+          <h4 id="mor-eligibility">Eligibility for Admission</h4>
+          <p>Admission is done through entrance examination and Interview. The details are as follows:
+
+          <table class="academics-table">
+            <thead>
+              <tr>
+                <th>Examination passed</th>
+                <th>Percentage Required</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  (a) Any Master’s Degree examination of the University of Delhi or an examination recognized as
+                  equivalent thereto with at least two papers in Mathematics/ Computer Science/ Statistics/Operational
+                  Research at graduation/ higher level.
+                  <br><br><strong>OR</strong><br><br>
+                  (b) Any Bachelor’s Degree examination under 10+2+3 scheme of examination of the University of Delhi or
+                  an examination recognized as equivalent thereto with at least two papers in Mathematics/Computer
+                  Science/Operational Research/ Statistics. <br> <br>
+
+                  <ol>
+                    <li><strong>Applicants who have graduated under 10+2+3 scheme or an equivalent scheme are eligible
+                        for admission.</strong></li>
+                    <li><strong>The candidates who are appearing in the final year examination of the degree on the
+                        basis of which admission is sought are also eligible to apply.</strong></li>
+                  </ol><br>
+                  <p><strong>Relaxation will be given to the candidates belonging to SC, ST and OBC category as per the
+                      University rules.</strong></p>
+                </td>
+                <td colspan="3">
+                  <strong>55% marks<br>in aggregate</strong>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          </p>
+
+          <h4 id="mor-assessment">Assessment of Students’ Performance and Scheme of Examinations</h4>
+          <p>
+          <ol class="pointerss">
+            <li style="padding-right: 10px; padding-left: 10px;">
+              <strong> English</strong> shall be the medium of instruction and examination.
+            </li>
+            <li style="padding-right: 10px; padding-left: 10px;">
+              <strong> Assessment of students’ performance</strong> shall consist of:
+              <ul class="pointers">
+                <li>
+                  <strong>Internal Assessment (30 Marks):</strong>
+                  Attendance: <strong>5 Marks</strong>,
+                  Evaluation by individual faculty members based on Assignments, Class tests, Presentations etc.:
+                  <strong>25 Marks</strong>.
+                </li>
+                <li>
+                  <strong>Internal Assessment for a course having practical component (20 Marks):</strong>
+                  Attendance: <strong>5 Marks</strong>,
+                  Evaluation by individual faculty members based on Assignments, Class tests, Presentations etc.:
+                  <strong>15 Marks</strong>.
+                </li>
+                <li>
+                  <strong>Practical Assessment (30 Marks):</strong>
+                  Practical Examination: <strong>20 Marks</strong>,
+                  Viva Voce: <strong>5 Marks</strong>,
+                  Attendance: <strong>5 Marks</strong>.
+                </li>
+                <li>
+                  <strong>End of Semester Examination (70 Marks)</strong>.
+                </li>
+                <li>
+                  <strong>End of Semester Examination</strong> for a course having practical component: <strong>50
+                    Marks</strong>.
+                </li>
+                <li>
+                  <strong>Project Assessment:</strong>
+                  Project Report: <strong>100 Marks</strong>,
+                  Viva Voce: <strong>50 Marks</strong>,
+                  Internal Assessment: <strong>50 Marks</strong>.
+                </li>
+              </ul>
+            </li>
+            <li style="padding-right: 10px; padding-left: 10px;">
+              All the assessment will be based on <strong>Learning Outcomes</strong> for the course.
+            </li>
+          </ol>
+          </p>
+
+          <h4 id="mor-promotion">Pass Percentage & Promotion Criteria </h4>
+          <br>
+          <p>
+            Pass Percentage: <strong>40%</strong> or equivalent grade (as per University rules) in each course. A
+            student
+            must score the minimum passing marks in <strong>each</strong> of the Core, Elective and Open Elective
+            courses.
+          </p>
+
+          <p><strong>Part I to Part II Progression:</strong></p>
+          <p>
+            For promotion to Part II, a student must have passed in at least four of the core courses of Part I.
+          </p>
+
+          <p><strong>Policy for re-appearing in Semester Examination:</strong></p>
+          <p>
+            A student who has to reappear in a paper prescribed for Semester I/III may do so only in odd
+            Semester examination to be held in November/December. A student who has to reappear in a
+            paper prescribed for Semester II/IV may do so only in the even Semester examination to be
+            held in April/May.
+          </p>
+
+          <h4 id="mor-grading">Conversion of Marks into Grades</h4> <br>
+          <p href="#" style="color: #652b7c; font-weight: 600;">University rules to be followed.</p>
+
+          <p><strong>Grade Points: </strong> <a href="#"> University rules to be followed.</a>
+          </p>
+
+          <p><strong>CGPA Calculation: </strong><a href="#"> University rules to be followed.</a>
+          </p>
+
+          <p><strong>SGPA Calculation: </strong><a href="#"> University rules to be followed.</a></p>
+          <p><strong>Grand SGPA Calculation: </strong></p>
+          </p>
+          <div class="grand_CGPA">
+            <p style="text-align: center;"><strong>Conversion of Grand CGPA into marks: </strong>As notified by
+              competent authority, the formula for
+              conversion of Grand CGPA into marks
+              is: <br>
+            <p style="text-align: center; font-weight: 700;">Final percentage of marks = CGPA based on all four
+              semesters x 9.5</p>
+            </p>
+
+          </div>
+
+          <h4 id="mor-division">Division of Degree into Classes</h4>
+          <p><a href="#"> University rules to be followed.</a></p>
+
+          <h4 id="mor-attendance">Attendance Requirement</h4>
+          <p><a href="#"> University rules to be followed.</a></p>
+
+          <h4 id="mor-span">Span Period</h4>
+          <p> <strong>No student shall be admitted for the examination</strong>
+            for any of the Parts/Semesters after the lapse of
+            <strong>four years</strong> from the date of admission to the Part I/Semester I of the MOR Programme.
+          </p>
+
+
+          <h4 id="mor-internal">Guidelines for Internal Assessment Marks (Semester Wise)</h4>
+          <p>Internal Assessment carries 30 marks out of which 5 marks are based on attendance, while 25
+            marks are for evaluation by individual faculty members based on assignments, class tests,
+            presentations etc.</p>
+          <p>
+            For a course including practical, Internal Assessment carries 20 marks out of which 5 marks
+            are based on attendance, while 15 marks are for evaluation by individual faculty members
+            based on assignments, class tests, presentations etc. </p>
+        </div>
+
+        <h3 id="mor-semester-details">Semester Wise Details of MOR Programme</h3> <br>
+        <div>
+
+          <a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+            style="text-decoration: none;">
+            </i>
+            <span style="font-weight: 500;">For complete list, open the link.</span><i
+              class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+          </a>
+
+          <br><br>
+
+          <h4 id="mor-semester-1" style>Semester - I</h4>
+        </div>
+
+        <table class="academics-table" border="1" cellspacing="0" cellpadding="6">
+          <thead>
+            <tr>
+              <th colspan="2">First Year: Semester I</th>
+              <th>Duration<br>(hrs.)</th>
+              <th>Sem.<br>Exam<br>Marks</th>
+              <th>Internal<br>Assessment<br>Marks</th>
+              <th>Total<br>Marks</th>
+              <th>Credits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Course:<br>MOR101</td>
+              <td>Linear Programming and Extensions</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course:<br>MOR102</td>
+              <td>Inventory Management</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course:<br>MOR103</td>
+              <td>Queueing System</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course:<br>MOR104</td>
+              <td>Statistics</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Course:<br>MOR105</td>
+              <td rowspan="2">
+                Python Programming<br>
+                (a) Theory<br>
+                (b) Practical
+              </td>
+              <td>3</td>
+              <td>50</td>
+              <td>20</td>
+              <td>70 <br>30</td>
+              <td>4</td>
+
+          </tbody>
+        </table>
+
+        <br>
+
+        <div>
+          <h4 id="mor-semester-2" style>Semester - II</h4>
+        </div>
+
+        <table class="academics-table" border="1" cellspacing="0" cellpadding="6">
+          <thead>
+            <tr>
+              <th colspan="2">First Year: Semester II</th>
+              <th>Duration (hrs.)</th>
+              <th>Sem. Exam Marks</th>
+              <th>Internal Assessment Marks</th>
+              <th>Total Marks</th>
+              <th>Credits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Course:<br>MOR201</td>
+              <td>Convex and Discrete Optimization</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course:<br>MOR202</td>
+              <td>Scheduling Techniques</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course:<br>MOR203</td>
+              <td>Marketing Management</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course:<br>MOR204</td>
+              <td>Econometric Modeling and Forecasting</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Course:<br>MOR205</td>
+              <td rowspan="2">
+                Open Elective: <br>
+                Database Management System and Visual Programming<br>
+                (a) Theory<br>
+                (b) Practical
+              </td>
+              <td>3</td>
+              <td rowspan="2">50</td>
+              <td rowspan="2">20</td>
+              <td rowspan="2">70 <br>30
+              </td>
+              <td rowspan="2">4</td>
+            </tr>
+
+          </tbody>
+        </table>
+
+        <br>
+
+        <div>
+          <h4 id="mor-semester-3" style>Semester - III</h4>
+        </div>
+
+        <table class="academics-table" border="1" cellspacing="0" cellpadding="6">
+          <thead>
+            <tr>
+              <th colspan="2">Second Year: Semester III</th>
+              <th>Duration (hrs.)</th>
+              <th>Sem. Exam Marks</th>
+              <th>Internal Assessment Marks</th>
+              <th>Total Marks</th>
+              <th>Credits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="1">Course: MOR301</td>
+              <td>Mathematical Programming</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course: MOR302</td>
+              <td>Reliability and Maintenance Theory</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Course: MOR303</td>
+              <td>Software Engineering</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+
+            <!-- Open Elective MOR304 -->
+            <tr>
+              <td rowspan="2">Course: MOR304</td>
+              <td rowspan="2">Open Elective (Any one course out of the following):<br> (i) Health Care Management <br>
+                (ii) Revenue Management</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td rowspan="2">4</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+            </tr>
+
+            <!-- Elective MOR305 -->
+            <tr>
+              <td rowspan="2">Course: MOR305</td>
+              <td rowspan="2">Elective (Any one course out of the following):<br>
+                (i) Supply Chain Management <br>
+                (ii) Financial Management
+              </td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td rowspan="2">4</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+
+        <div>
+          <h4 id="mor-semester-4" style>Semester - IV</h4>
+        </div>
+
+
+        <table class="academics-table" border="1" cellspacing="0" cellpadding="6">
+          <thead>
+            <tr>
+              <th rowspan="2" colspan="2 "> <strong>Second Year: Semester IV</strong> </th>
+              <!-- <th rowspan="2">Course</th> -->
+              <th rowspan="2">Duration (hrs.)</th>
+              <th rowspan="2">Sem. Exam Marks</th>
+              <th rowspan="2">Internal Assessment Marks</th>
+              <th rowspan="2">Total Marks</th>
+              <th rowspan="2">Credits</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Electives Section -->
+            <tr>
+              <td rowspan="10">Course: MOR401-403 <br> Any three Electives out of the following:</td>
+              <td>(i) Marketing Research</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(ii) Advanced Inventory Management</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(iii) Queueing Networks</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(iv) Quality Management</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(v) Multicriteria Decision Models</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(vi) Data Warehousing and Data Mining</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(vii) Decision Theory</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(viii) Dynamic Optimization</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(ix) Portfolio Management</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>(x) Stochastic Processes</td>
+              <td>3</td>
+              <td>70</td>
+              <td>30</td>
+              <td>100</td>
+              <td>4</td>
+            </tr>
+
+            <!-- Project Work Section -->
+            <tr>
+              <td>Course: MOR404-405</td>
+              <td colspan="5">
+                <strong>Project Work:</strong> <br>
+                The project work shall be carried out with some industry/company under the supervision of faculty
+                members of the department and the report is to be submitted for evaluation by April 30. <br>
+                It shall carry 200 marks. <br><br>
+                Project Report: <strong>100</strong> | Internal Assessment: <strong>50</strong> | Viva-Voce:
+                <strong>50</strong> <br>
+                <strong>Total: 200 Marks</strong>
+              </td>
+              <td><strong>8</strong></td>
+            </tr>
+          </tbody>
+
+        </table>
+        <br>
+
+        <h3 id="mor-syllabus">Detailed Syllabi of MOR Programme</h3>
+
+        <table class="academics-table">
+          <thead>
+            <tr>
+              <th>Course ID</th>
+              <th>Course Name</th>
+              <th>PDF Page No.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>MOR101</td>
+              <td>Linear Programming and Extensions</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">9–12</a></td>
+            </tr>
+            <tr>
+              <td>MOR102</td>
+              <td>Inventory Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">12–15</a></td>
+            </tr>
+            <tr>
+              <td>MOR103</td>
+              <td>Queueing System</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">15–17</a></td>
+            </tr>
+            <tr>
+              <td>MOR104</td>
+              <td>Statistics</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">17–20</a></td>
+            </tr>
+            <tr>
+              <td>MOR105</td>
+              <td>Python Programming</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">20–23</a></td>
+            </tr>
+            <tr>
+              <td>MOR201</td>
+              <td>Convex and Discrete Optimization</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">23–26</a></td>
+            </tr>
+            <tr>
+              <td>MOR202</td>
+              <td>Scheduling Techniques</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">26–29</a></td>
+            </tr>
+            <tr>
+              <td>MOR203</td>
+              <td>Marketing Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">29–31</a></td>
+            </tr>
+            <tr>
+              <td>MOR204</td>
+              <td>Econometric Modeling and Forecasting</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">31–34</a></td>
+            </tr>
+            <tr>
+              <td>MOR205</td>
+              <td>Database Management System & Visual Programming</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">35–37</a></td>
+            </tr>
+            <tr>
+              <td>MOR301</td>
+              <td>Mathematical Programming</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">37–40</a></td>
+            </tr>
+            <tr>
+              <td>MOR302</td>
+              <td>Reliability and Maintenance Theory</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">40–43</a></td>
+            </tr>
+            <tr>
+              <td>MOR303</td>
+              <td>Software Engineering</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">43–45</a></td>
+            </tr>
+            <tr>
+              <td>MOR304(i)</td>
+              <td>Health Care Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">45–48</a></td>
+            </tr>
+            <tr>
+              <td>MOR304(ii)</td>
+              <td>Revenue Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">48–51</a></td>
+            </tr>
+            <tr>
+              <td>MOR305(i)</td>
+              <td>Supply Chain Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">51–55</a></td>
+            </tr>
+            <tr>
+              <td>MOR305(ii)</td>
+              <td>Financial Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">55–58</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(i)</td>
+              <td>Marketing Research</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">59–61</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(ii)</td>
+              <td>Advanced Inventory Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">61–63</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(iii)</td>
+              <td>Queueing Networks</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">63–66</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(iv)</td>
+              <td>Quality Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">66–69</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(v)</td>
+              <td>Multicriteria Decision Models</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">69–73</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(vi)</td>
+              <td>Data Warehousing and Data Mining</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">73–76</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(vii)</td>
+              <td>Decision Theory</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">76–79</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(viii)</td>
+              <td>Dynamic Optimization</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">79–81</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(ix)</td>
+              <td>Portfolio Management</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">81–84</a></td>
+            </tr>
+            <tr>
+              <td>MOR401-403(x)</td>
+              <td>Stochastic Processes</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">84–86</a></td>
+            </tr>
+            <tr>
+              <td>MOR404-405</td>
+              <td>Project Work</td>
+              <td><a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+                  style="text-decoration: none;">87</a></td>
+            </tr>
+          </tbody>
+        </table><br>
+
+        <h2 class="about-title" id="phd-intro">Ph.D. Operational Research</h2>
+
+        <section class="academics">
+
+          <div>
+            <h3>Introduction to Ph.D. Operational Research</h3> <br>
+            <p><strong>The Ph.D. program in Operational Research</strong> at the University of Delhi is a premier
+              research initiative offered by the <strong>Department of Operational Research</strong> under the
+              <strong>Faculty of Mathematical Sciences</strong>. Established in <strong>1973</strong>, the department
+              pioneered postgraduate education in Operational Research in India and continues to lead in
+              <strong>analytical and decision sciences</strong>.
+            </p>
+
+            <p>This doctoral program is designed for scholars aiming to contribute original research in areas such as
+              <strong>mathematical modeling</strong>, <strong>optimization</strong>, <strong>supply chain
+                management</strong>, <strong>reliability theory</strong>, and <strong>financial engineering</strong>.
+              Candidates undergo rigorous coursework including subjects like <strong>Research Methodology</strong>,
+              <strong>Inventory and Production Management</strong>, and <strong>Network Optimization</strong>. The
+              program fosters <strong>interdisciplinary inquiry</strong> and <strong>practical problem-solving</strong>,
+              preparing researchers to address complex systems in <strong>industry</strong>,
+              <strong>government</strong>, and <strong>academia</strong>.
+            </p>
+
+            <p><strong>Admission</strong> is based on university guidelines, with supervision provided by a
+              <strong>distinguished faculty</strong> known for their contributions to both <strong>theoretical and
+                applied research</strong>.
+            </p>
+          </div>
+        </section>
+
+
+        <h3 id="phd-definitions">Definition</h3>
+
+        <section class="definitions">
+          <!-- Write all the definitions related to Ph.D. -->
+          <ul class="pointers">
+            <li>
+              <strong>Compulsory Papers (Core Courses):</strong><br>
+              These are <strong>mandatory subjects</strong> that every Ph.D. scholar must complete regardless of their
+              research area. They aim to develop essential research methodology, academic writing, and ethical conduct.
+              <br>
+              <strong>Purpose:</strong><br>
+              - Equip scholars with <strong>research design and analytical techniques</strong>.<br>
+              - Build competence in <strong>literature review, hypothesis formulation</strong>, and <strong>data
+                interpretation</strong>.<br>
+              - Ensure understanding of <strong>ethical standards</strong> in research publication and conduct.
+              <br>
+              <strong>Examples:</strong><br>
+              - <strong>Research Methodology (Compulsory)</strong> – Covers qualitative and quantitative methods, data
+              collection, and analysis techniques.<br>
+              - <strong>Research and Publication Ethics (Compulsory)</strong> – Covers plagiarism, publication
+              misconduct, citation practices, and research integrity.
+            </li>
+
+            <li>
+              <strong>Optional Papers (Electives):</strong><br>
+              Optional or elective papers allow scholars to choose subjects based on their research interests. These
+              subjects provide depth in specialized domains and support the scholar’s dissertation topic.
+              <br>
+              <strong>Purpose:</strong><br>
+              - Offer flexibility to tailor the course structure to a scholar’s field.<br>
+              - Enable <strong>interdisciplinary learning</strong> and in-depth subject knowledge.<br>
+              - Contribute directly to the <strong>literature review</strong> and <strong>problem formulation</strong>
+              stages of the thesis.
+              <br>
+              <strong>Examples:</strong><br>
+              - Inventory and Production Management<br>
+              - Supply Chain Management<br>
+              - Network Optimization<br>
+              - Financial Engineering<br>
+              - Queueing Systems<br>
+              - Marketing Management, etc.
+            </li>
+          </ul>
+
+
+        </section>
+
+
+        <h3 id="cbcs-definitions" style="color: maroon;">Ph.D. Programme Details</h3>
+
+
+        <section class="progrmme-details">
+
+          <div class="phd-programme-details">
+
+            <h4 id="phd-objectives">Programme Objectives</h4>
+
+            <ul class="pointers">
+              <li><strong>Advance Theoretical and Applied Knowledge:</strong> Develop a deep understanding of
+                mathematical
+                modeling, optimization techniques, and systems analysis to address complex real-world problems.</li>
+
+              <li><strong>Promote Interdisciplinary Research:</strong> Encourage integration of concepts from
+                mathematics,
+                statistics, computer science, economics, and engineering to solve multifaceted operational challenges.
+              </li>
+
+              <li><strong>Enhance Analytical and Problem-Solving Skills:</strong> Train scholars to critically evaluate
+                systems and processes, and propose data-driven, efficient solutions for industries, government, and
+                academia.</li>
+
+              <li><strong>Contribute to Scholarly Literature:</strong> Support original research that leads to
+                publications
+                in reputed journals and contributes meaningfully to the global body of knowledge in operational
+                research.
+              </li>
+
+              <li><strong>Prepare for Leadership in Research and Academia:</strong> Equip candidates with the skills and
+                experience needed to lead research initiatives, teach at the university level, and consult on strategic
+                decision-making.</li>
+            </ul>
+
+            <h4 id="phd-outcomes">Programme Specific Outcomes</h4>
+
+            <ul class="pointers">
+              <li><strong>Develop Advanced Research Competence:</strong> Enable scholars to conduct independent,
+                original research in operational research, contributing to theoretical advancements and practical
+                applications.</li>
+
+              <li><strong>Master Analytical and Quantitative Techniques:</strong> Equip researchers with sophisticated
+                tools in mathematical modeling, optimization, and decision analysis to solve complex problems across
+                domains.</li>
+
+              <li><strong>Foster Interdisciplinary Integration:</strong> Promote the blending of operational research
+                with fields such as economics, computer science, engineering, and management for holistic
+                problem-solving.</li>
+
+              <li><strong>Enhance Academic and Professional Communication:</strong> Train scholars to effectively
+                present research findings through publications, conferences, and teaching engagements.</li>
+
+              <li><strong>Prepare for Leadership Roles:</strong> Cultivate the ability to lead research projects, mentor
+                junior researchers, and contribute to policy-making and strategic planning in academic, industrial, and
+                governmental settings.</li>
+            </ul>
+
+            <p>Note: Re-examination or supplementary exam of Ph.D. Coursework if needed will be conducted in July.</p>
+
+            <h4 id="phd-eligibility">Eligibility for Admission</h4>
+            <a href="document/Ordinance VI.pdf" target="_blank" style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500; margin-left: 45px;">For complete details and university rules, open the
+                link.</span><i class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a><br>
+            <a href="document/OR_PhD.pdf" target="_blank" style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500; margin-left: 45px;">For complete details, open the link.</span><i
+                class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a>
+
+
+
+            <ul class="pointers">
+              <li><strong>Minimum Qualification:</strong> Master’s Degree in Operational Research or an allied subject
+                with at least two papers in Operational Research.</li>
+              <li><strong>Minimum Marks:</strong> 55% marks or equivalent CGPA. For allied subjects, 60% or above marks
+                in Operational Research papers.</li>
+              <li><strong>Relaxation:</strong> OBC/SC/ST candidates are eligible for a 5% relaxation in minimum marks as
+                per University rules.</li>
+            </ul>
+
+            <p>How to Apply</p>
+
+            <ul class="pointers">
+              <li><strong>Mode:</strong> Online registration through the University Admission Portal for M.Phil./Ph.D.
+                admissions.</li>
+            </ul>
+
+            <p>Selection Procedure</p>
+            <ul class="pointers">
+              <li><strong>Written Examination:</strong> Multiple Choice Question (MCQ) format; qualifying marks are 50%.
+              </li>
+              <li><strong>Syllabus Split:</strong> 50% questions on Research Aptitude/Methodology and 50% on
+                subject-specific topics.</li>
+              <li><strong>Interview:</strong> Shortlisted candidates based on the written exam will be invited for an
+                interview.</li>
+              <li><strong>Note:</strong> Common written exam for both M.Phil. and Ph.D. programs in Operational
+                Research. No TA/DA will be provided.</li>
+            </ul>
+
+            <p>Syllabus for Ph.D. Entrance Examination</p>
+
+            <h4>1. Operational Research</h4>
+
+            <ul class="pointers" style="margin-left: 50px;">
+              <li><strong>Linear Programming:</strong> Formulation, Simplex Method, Duality, Complementary Slackness.
+              </li>
+              <li><strong>Vector Analysis:</strong> Linear independence and dependence.</li>
+              <li><strong>Optimization:</strong> Convex functions, Lagrange theorem, KKT conditions, Quadratic
+                programming.</li>
+              <li><strong>Inventory Models:</strong> Economic lot size, production quantity, reorder level, stochastic
+                models.</li>
+              <li><strong>Queueing Theory:</strong> M/M/1 and M/M/C models, Markovian input/service.</li>
+              <li><strong>Reliability:</strong> Definitions, multi-component systems, exponential and Weibull
+                distributions.</li>
+            </ul>
+
+            <h4>2. Research Methodology</h4>
+
+            <ul class="pointers" style="margin-left: 50px;">
+              <li><strong>Research Ethics:</strong> Plagiarism, falsification, integrity, authorship issues.</li>
+              <li><strong>Statistical Tools:</strong> Measures, scaling techniques, probability, Bayes theorem.</li>
+              <li><strong>Sampling:</strong> Fundamentals, distributions, theory, estimation.</li>
+              <li><strong>Hypothesis Testing:</strong> Procedures, correlation, regression analysis.</li>
+            </ul>
+
+
+            <h4 id="phd-assessment">Scheme of Evaluation and IA</h4>
+            <a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500; margin-left: 45px;">For complete details, open the link.</span><i
+                class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a>
+
+            <ul class="pointers">
+              <li>A student admitted to <strong>Ph.D. coursework</strong> will be evaluated on the basis of
+                <strong>written examination in 3 courses</strong> and on the <strong>internal continual
+                  assessment</strong>. Each course will be of <strong>100 marks</strong>, out of which <strong>70
+                  marks</strong> are for the <strong>written paper</strong>, and <strong>30 marks</strong> are for
+                <strong>internal assessment</strong>.
+              </li>
+              <li>The students will be <strong>assessed continuously</strong> on the basis of their
+                <strong>assignments/seminars</strong>.
+              </li>
+              <li><strong>Note:</strong> Re-examination or supplementary exam of Ph.D. Coursework if needed will be
+                conducted in <strong>July</strong>.
+            </ul>
+
+            <h4 id="phd-duration">Duration</h4>
+            <a href="document/Ordinance VI.pdf" target="_blank" style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500; margin-left: 45px;">For complete details and university rules, open the
+                link.</span><i class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a><br>
+            <a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500; margin-left: 45px;">For complete details, open the link.</span><i
+                class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a>
+            <ul class="pointers">
+              <li>The <strong>duration</strong> of the Ph.D. programme will be as per the <strong>rules</strong>
+                highlighted in the <strong>Ordinance VI</strong> (amended via <strong>notification dated 9th August,
+                  2017</strong>) of Ordinance of the <strong>University of Delhi</strong> related to <strong>Doctorate
+                  of Philosophy (Ph.D.)</strong>.</li>
+              <li>As per <strong>UGC Regulations 2016</strong>
+                , <strong>Ph.D. programme</strong> shall be for a minimum duration of <strong>three
+                  years</strong> from the date of registration, including coursework and up to a <strong>maximum of six
+                  years</strong>.
+              </li>
+              <li><strong>Note:</strong> Re-examination or supplementary exam of Ph.D. coursework if needed will be
+                conducted in <strong>July</strong>.</li>
+            </ul>
+
+            <h4 id="phd-attendance">Attendance Requirements</h4>
+            <a href="document/OR_PhD.pdf" target="_blank" style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500; margin-left: 45px;">For complete details, open the link.</span><i
+                class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a>
+            <ul class="pointers">
+              <li>A student admitted to the Ph.D. coursework shall be required to <strong>attend not less than
+                  2/3rd</strong> of
+                the number of contact periods and seminars held separately.</li>
+              <li>* All other rules mentioned in Amendment to the Ordinance VI (amended vide notification
+                dated 9th August, 2017) of Ordinances of the University of Delhi related to Doctorate of
+                Philosophy (Ph.D.) are also applicable.</li>
+            </ul>
+          </div>
+
+          <h3 id="financial-assistance"> Financial Assistance to Research Scholars
+          </h3><a href="document/Ordinance VI.pdf" target="_blank" style="text-decoration: none;">
+            </i>
+            <span style="font-weight: 500; margin-left: 45px;">For complete details and university rules, open the
+              link.</span><i class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+          </a><br>
+          <ul class="pointers">
+            <li>
+              <strong>Research scholars</strong> who have cleared <strong>National Level examinations</strong> with
+              <strong>JRF or equivalent</strong> shall get financial assistance from the concerned funding agency.
+            </li>
+            <li>
+              <strong>Research scholars</strong> who are working in projects as <strong>JRF</strong> and
+              <strong>SRF</strong>
+              shall get financial assistance from the designated projects.
+            </li>
+            <li>
+              <strong>Research scholars</strong>, who do not have any financial assistance, may be awarded
+              <strong>Non-NET UGC fellowships</strong>. The <strong>University</strong>, depending on the grant
+              available
+              from <strong>UGC</strong>, will determine the number of fellowships under this category annually.
+              <strong>(Rs. 8,000/- per month)</strong>
+            </li>
+            <li>
+              <strong>Financial assistance</strong> shall not be provided where the research scholar is availing
+              <strong>paid study leave</strong>.
+            </li>
+            <li>
+              <strong>Foreign research scholars</strong> must show proof of <strong>financial support</strong>
+              for the duration of the <strong>M.Phil./Ph.D. enrolment</strong>.
+            </li>
+          </ul>
+
+          <h3 id="phd-details">Evaluation and Assessment of Thesis</h3>
+          <a href="document/Ordinance VI.pdf" target="_blank" style="text-decoration: none;">
+            </i>
+            <span style="font-weight: 500; margin-left: 45px;">For complete details and university rules, open the
+              link.</span><i class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+          </a>
+
+          <ul class="pointers">
+            <li>
+              Prior to submission of the thesis, the <strong>research scholar</strong> shall make a <strong>pre-Ph.D.
+                presentation</strong>
+              in the Department, before the <strong>Research Advisory Committee</strong>, wherever applicable, which
+              shall also be open to all faculty members and students.
+              The feedback and comments obtained may be suitably incorporated in consultation with the Committee.
+            </li>
+
+            <li>
+              The <strong>research scholar</strong> shall submit the thesis <strong>within six months</strong> after the
+              pre-Ph.D. presentation.
+            </li>
+
+            <li>
+              In case of issues related to <strong>Intellectual Property Rights (IPR)</strong>, necessary
+              <strong>patents</strong> shall be filed before disclosure in any seminar.
+            </li>
+
+            <li>
+              A <strong>Ph.D. research scholar</strong> shall publish <strong>at least one research paper in a refereed
+                journal</strong> before submission of the thesis, and
+              produce evidence (acceptance letter or reprint), certified by the <strong>Supervisor</strong> and the
+              <strong>Head of the Department</strong>.
+            </li>
+
+            <li>
+              <strong>Ph.D. scholars</strong> shall make <strong>two paper presentations</strong> (oral or poster) in
+              conferences/seminars before thesis submission and
+              produce evidence (presentation certificate), certified by the <strong>Supervisor</strong> and the
+              <strong>Head of the Department</strong>.
+            </li>
+
+            <li>
+              The University shall use <strong>plagiarism detection tools</strong> to verify all theses. A
+              <strong>Plagiarism Check Certificate</strong> from the
+              <strong>University Library</strong> must be submitted with the thesis to the Examination Branch. The final
+              submission must happen <strong>within 30 days</strong> of the plagiarism check.
+            </li>
+
+            <li>
+              At the time of thesis submission, there shall be an <strong>undertaking by the research scholar</strong>
+              and a <strong>certificate from the Supervisor</strong>
+              attesting to the <strong>originality</strong> of the work, confirming <strong>no plagiarism</strong> or
+              previous submission to any institution.
+            </li>
+
+            <li>
+              The <strong>abstract and table of contents</strong> must be submitted by the <strong>Supervisor</strong>
+              to the <strong>Head of the Department</strong>
+              for review by the <strong>Departmental Research Committee (DRC)</strong>. The <strong>Board of Research
+                Studies (BRS)</strong> shall review the
+              recommended examiner panel and forward to the Examination Branch. The <strong>Chairman, BRS</strong> may
+              approve the panel to avoid delays.
+            </li>
+
+            <li>
+              As per <strong>UGC Regulations 2016</strong>, the <strong>public viva-voce</strong> will be held only if
+              the <strong>external examiner reports</strong>
+              are satisfactory and recommend viva-voce. If one report is unsatisfactory, the thesis is sent to another
+              examiner. If both are unsatisfactory,
+              the thesis is <strong>rejected</strong> and the scholar is <strong>declared ineligible</strong> for the
+              degree.
+            </li>
+
+            <li>
+              For <strong>Ph.D. thesis evaluation</strong>, corresponding actions must be taken as per the
+              <strong>remarks of the external examiners</strong> as
+              outlined in the University’s evaluation table.
+
+              <table class="academics-table">
+                <thead>
+                  <tr>
+                    <th>Recommendation</th>
+                    <th>Examiner 1</th>
+                    <th>Examiner 2</th>
+                    <th>Examiner 3</th>
+                    <th>Action Suggested</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Event 1</td>
+                    <td>Accept</td>
+                    <td>Accept</td>
+                    <td>Accept</td>
+                    <td>Viva voce</td>
+                  </tr>
+                  <tr>
+                    <td>Event 2</td>
+                    <td>Accept</td>
+                    <td>Accept</td>
+                    <td>Minor Revision</td>
+                    <td>Revise thesis in consultation with Supervisor followed by viva voce</td>
+                  </tr>
+                  <tr>
+                    <td>Event 3</td>
+                    <td>Accept/Resubmission</td>
+                    <td>Accept/Resubmission</td>
+                    <td>Resubmission</td>
+                    <td>
+                      Resubmission within one year after incorporating suggestions. Thesis to be sent to all examiners
+                      again.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Event 4</td>
+                    <td>Accept</td>
+                    <td>Accept</td>
+                    <td>Reject</td>
+                    <td>Thesis to be sent to fourth examiner whose recommendation shall be final and binding</td>
+                  </tr>
+                  <tr>
+                    <td>Event 5</td>
+                    <td>Accept/Resubmission</td>
+                    <td>Reject</td>
+                    <td>Reject</td>
+                    <td>Reject and cancel registration</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+
+          <br>
+
+          <h3 id="evaluation-and-assessment">Structure of Ph.D. Operational Research</h3>
+
+          <div>
+
+            <a href="document/Syllabus. Master of Operational Research.pdf" target="_blank"
+              style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500;">For more details, open the link.</span><i
+                class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a>
+
+            <br><br>
+
+            <p>There will be <strong>4 Courses</strong> for the Ph.D. Coursework. Each student shall undertake
+              <strong> two compulsory course</strong> on <strong>Research Methodology (Course Code: Ph.D. - 01)</strong>
+              and <strong>Research and Publications Ethics (Course Code: Ph.D. - 02)</strong> alomg with
+              <strong>two other optional
+                courses</strong> decided by his/her Supervisor.
+            </p></a>
+            <a href="document/OR_PhD.pdf" target="_blank" style="text-decoration: none;">
+              </i>
+              <span style="font-weight: 500; margin-left: 45px;">For complete details, open the link.</span><i
+                class="fa-solid fa-file-pdf fa-2x" style="margin-left: 10px;"></i>
+            </a><br>
+            <table class="academics-table">
+              <thead>
+                <tr>
+                  <th>S. No.</th>
+                  <th>Course Code</th>
+                  <th>Course Name</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>(i)</td>
+                  <td>Ph.D. – 01</td>
+                  <td>Research Methodology
+                    <strong>(compulsory)</strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>(ii)</td>
+                  <td>Ph.D. – 02</td>
+                  <td>Research and Publications Ethics <strong>(compulsory)</strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3" style="text-align: center;"><strong>Any Two of the following Optional Courses</strong>
+                  </td>
+                </tr>
+                <tr>
+                  <td>(iii)</td>
+                  <td>Ph.D. – 03</td>
+                  <td>Inventory and Production Management</td>
+                </tr>
+                <tr>
+                  <td>(iv)</td>
+                  <td>Ph.D. – 04</td>
+                  <td>Marketing Management</td>
+                </tr>
+                <tr>
+                  <td>(v)</td>
+                  <td>Ph.D. – 05</td>
+                  <td>Mathematical Programming</td>
+                </tr>
+                <tr>
+                  <td>(vi)</td>
+                  <td>Ph.D. – 06</td>
+                  <td>Theory of Reliability</td>
+                </tr>
+                <tr>
+                  <td>(vii)</td>
+                  <td>Ph.D. – 07</td>
+                  <td>Software Reliability</td>
+                </tr>
+                <tr>
+                  <td>(viii)</td>
+                  <td>Ph.D. – 08</td>
+                  <td>Queueing Systems</td>
+                </tr>
+                <tr>
+                  <td>(ix)</td>
+                  <td>Ph.D. – 09</td>
+                  <td>Supply Chain Management</td>
+                </tr>
+                <tr>
+                  <td>(x)</td>
+                  <td>Ph.D. – 10</td>
+                  <td>Financial Engineering</td>
+                </tr>
+                <tr>
+                  <td>(xi)</td>
+                  <td>Ph.D. – 11</td>
+                  <td>Network Optimization</td>
+                </tr>
+              </tbody>
+            </table>
+          </div><br>
+
+          <h3 id="phd-syllabus">Detailed Syllabi of Ph.D. OR</h3>
+
+          <table class="academics-table">
+            <thead>
+              <tr>
+                <th>Course ID</th>
+                <th>Course Name</th>
+                <th>PDF Page No.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ph.D. – 01</td>
+                <td>Research Methodology <strong>(compulsory)</strong></td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">3</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 02</td>
+                <td>Research and Publications Ethics <strong>(compulsory)</strong></td>
+                <td><a href="document/Research-and-Publication-Ethics-UGC-2020.pdf" target="_blank"
+                    style="text-decoration: none;">3-4</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 03</td>
+                <td>Inventory and Production Management</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">4</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 04</td>
+                <td>Marketing Management</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">5</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 05</td>
+                <td>Mathematical Programming</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">6</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 06</td>
+                <td>Theory of Reliability</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">7</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 07</td>
+                <td>Software Reliability</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">8</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 08</td>
+                <td>Queueing Systems</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">9</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 09</td>
+                <td>Supply Chain Management</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">10</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 10</td>
+                <td>Financial Engineering</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">11</a></td>
+              </tr>
+              <tr>
+                <td>Ph.D. – 11</td>
+                <td>Network Optimization</td>
+                <td><a href="document/PhD-Syllabus_OR.pdf" target="_blank" style="text-decoration: none;">12</a></td>
+              </tr>
+            </tbody>
+          </table><br>
+
+
+
+          <h2 class="about-title" id="e-resources">E-Resources</h2>
+          <section class="resources-section">
+            <table class="academics-table">
+              <thead>
+                <tr>
+                  <th>S. No.</th>
+                  <th>Website Name</th>
+                  <th>Description</th>
+                  <th>Website Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Section 1: DU E-Resource Platforms -->
+                <tr>
+                  <td colspan="4"><strong>💻 DU E-Resource Platforms</strong></td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>DU E-Resources Portal</td>
+                  <td>For Postgraduate and Ph.D. Courses</td>
+                  <td><a href="https://library.du.ac.in/e-resources/" target="_blank">Access Now</a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>University of Delhi Library System (DULS)</td>
+                  <td>Digital access to journals, books, and databases</td>
+                  <td><a href="https://crl.du.ac.in/" target="_blank">Visit DULS</a></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>INFLIBNET</td>
+                  <td>Access to Shodhganga, Vidwan, and ShodhShuddhi</td>
+                  <td><a href="https://www.inflibnet.ac.in" target="_blank">Visit INFLIBNET</a></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>JSTOR</td>
+                  <td>Scholarly articles archive (via DU access)</td>
+                  <td><a href="https://www.jstor.org" target="_blank">Visit JSTOR</a></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>ScienceDirect</td>
+                  <td>Research papers and journals by Elsevier</td>
+                  <td><a href="https://www.sciencedirect.com" target="_blank">Visit ScienceDirect</a></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>SpringerLink & Wiley</td>
+                  <td>Access DU-subscribed journals (login via DULS)</td>
+                  <td><a href="https://crl.du.ac.in/" target="_blank">Visit DULS</a></td>
+                </tr>
+
+                <!-- Section 2: IITs and International E-Resource Platforms -->
+                <tr>
+                  <td colspan="4"><strong>🌐 IITs and International E-Resource Platforms</strong></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>IIT Bombay – E-Resources</td>
+                  <td>Engineering and science digital content</td>
+                  <td><a href="https://www.library.iitb.ac.in/eresources" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>IIT Delhi – Online Resources</td>
+                  <td>Library access to research resources</td>
+                  <td><a href="https://library.iitd.ac.in/online-resources" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td>IIT Kanpur – E-Resources</td>
+                  <td>Academic and research databases</td>
+                  <td><a href="https://www.iitk.ac.in/library/e-resources" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>IIT Kharagpur – Library</td>
+                  <td>Central Library of IIT KGP</td>
+                  <td><a href="http://www.library.iitkgp.ac.in" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>11</td>
+                  <td>NIT Trichy – LRC</td>
+                  <td>Learning Resource Centre</td>
+                  <td><a href="https://www.nitt.edu/home/academics/departments/lrc" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>MIT OpenCourseWare</td>
+                  <td>Free courses from MIT</td>
+                  <td><a href="https://ocw.mit.edu" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>13</td>
+                  <td>Harvard University – Library</td>
+                  <td>Global library access and digital services</td>
+                  <td><a href="https://library.harvard.edu" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>Stanford Libraries</td>
+                  <td>Digital resources and journals</td>
+                  <td><a href="https://library.stanford.edu" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>University of Cambridge – Libraries</td>
+                  <td>International library resources</td>
+                  <td><a href="https://www.libraries.cam.ac.uk" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>16</td>
+                  <td>University of Oxford – Bodleian Libraries</td>
+                  <td>Renowned research and digital access</td>
+                  <td><a href="https://www.bodleian.ox.ac.uk" target="_blank">Visit</a></td>
+                </tr>
+
+                <!-- Section 3: Open Access and Learning Platforms -->
+                <tr>
+                  <td colspan="4"><strong>📘 Open Access and Learning Platforms</strong></td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>CORE</td>
+                  <td>Open access research repository</td>
+                  <td><a href="https://core.ac.uk" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>18</td>
+                  <td>ERIC</td>
+                  <td>Education-focused database</td>
+                  <td><a href="https://eric.ed.gov" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>PubMed</td>
+                  <td>Biomedical research and publications</td>
+                  <td><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>20</td>
+                  <td>arXiv</td>
+                  <td>Preprint server for science papers</td>
+                  <td><a href="https://arxiv.org" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>SSRN</td>
+                  <td>Social science and law research</td>
+                  <td><a href="https://www.ssrn.com" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>22</td>
+                  <td>SWAYAM</td>
+                  <td>MOOCs from UGC/AICTE</td>
+                  <td><a href="https://swayam.gov.in" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>23</td>
+                  <td>e-PG Pathshala</td>
+                  <td>MHRD digital academic content</td>
+                  <td><a href="https://epgp.inflibnet.ac.in" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>NPTEL</td>
+                  <td>IIT/IISc video lectures and courses</td>
+                  <td><a href="https://nptel.ac.in" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>Shodhganga</td>
+                  <td>Indian Theses Repository</td>
+                  <td><a href="https://shodhganga.inflibnet.ac.in" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>26</td>
+                  <td>Google Scholar</td>
+                  <td>Academic search engine</td>
+                  <td><a href="https://scholar.google.com" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>27</td>
+                  <td>DOAJ</td>
+                  <td>Directory of Open Access Journals</td>
+                  <td><a href="https://www.doaj.org" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>28</td>
+                  <td>Project MUSE</td>
+                  <td>Humanities and Social Sciences content</td>
+                  <td><a href="https://muse.jhu.edu" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                  <td>29</td>
+                  <td>OpenStax & Bookboon</td>
+                  <td>Free textbooks and academic books</td>
+                  <td><a href="https://openstax.org" target="_blank">OpenStax</a>, <a href="https://bookboon.com"
+                      target="_blank">Bookboon</a></td>
+                </tr>
+                <tr>
+                  <td>30</td>
+                  <td>Overleaf</td>
+                  <td>Online LaTeX editor for academic writing</td>
+                  <td><a href="https://www.overleaf.com" target="_blank">Visit</a></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </section>
+
+
+          <h2 class="about-title" id="useful-links">Useful Links</h2>
+
+          <section class="resources-section">
+
+            <table class="academics-table">
+              <thead>
+                <tr>
+                  <th>S. No.</th>
+                  <th>Website Name</th>
+                  <th>Description</th>
+                  <th>Website Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td><strong>University of Delhi Official Website</strong></td>
+                  <td>General information about University of Delhi</td>
+                  <td><a href="https://www.du.ac.in" target="_blank">www.du.ac.in</a></td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td><strong>Delhi University Admissions Portal</strong></td>
+                  <td>PG/Ph.D. admission guidelines, notices, and circulars</td>
+                  <td><a href="https://admission.uod.ac.in" target="_blank">admission.uod.ac.in</a></td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td><strong>Delhi University PG Bulletin & Syllabus</strong></td>
+                  <td>Official syllabi and course structures for PG/Ph.D. programs</td>
+                  <td><a href="https://www.du.ac.in/index.php?page=pg-courses" target="_blank">PG Courses – DU</a></td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td><strong>University Grants Commission (UGC)</strong></td>
+                  <td> It is a statutory body under Department of Higher Education, Ministry of Education, Government of
+                    India.</td>
+                  <td><a href="https://www.ugc.gov.in/" target="_blank">https://www.ugc.gov.in/</a></td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td><strong>Department of Operational Research (DU)</strong></td>
+                  <td>Departmental announcements, syllabi, and schedules</td>
+                  <td><a href="http://or.du.ac.in" target="_blank">or.du.ac.in</a></td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td><strong>Examinations Portal (DU)</strong></td>
+                  <td>Notifications, date sheets, and results</td>
+                  <td><a href="https://exam.du.ac.in" target="_blank">exam.du.ac.in</a></td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td><strong>Online Results Portal</strong></td>
+                  <td>PG/Ph.D. semester-wise result access</td>
+                  <td><a href="https://examportal.duresult.in/StudentPortal/Login.aspx" target="_blank">duresult.in</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td><strong>Student Grievance Redressal Cell</strong></td>
+                  <td>Submit academic/exam-related grievances online</td>
+                  <td><a href="https://grievance.du.ac.in" target="_blank">grievance.du.ac.in</a></td>
+                </tr>
+                <tr>
+                  <td>9</td>
+                  <td><strong>DULS – E-Resources Portal</strong></td>
+                  <td>DU Library System for PG-level digital content</td>
+                  <td><a href="https://crl.du.ac.in/" target="_blank">crl.du.ac.in</a></td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td><strong>Scholarship & Fellowship Notices (DU)</strong></td>
+                  <td>Research fellowships, scholarships, and UGC-NET support</td>
+                  <td><a href="https://www.du.ac.in/index.php?page=scholarships" target="_blank">Scholarships – DU</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+
+
+          <h2 class="about-title" id="pyq_or">Previous Year Questions (PYQs)</h2>
+          <section class="pyq">
+            <h3 id="MOR-PYQ">Master of Operational Research PYQ</h3>
+            <section>
+              <table class="academics-table">
+                <thead>
+                  <tr>
+                    <th>S. No.</th>
+                    <th>Year</th>
+                    <th>PYQs</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1. </td>
+                    <td>2023-24</td>
+                    <td>
+                      <a href="#">First Sem</a> | <a href="#">Second Sem</a> | <a href="#">Third Sem</a> | <a
+                        href="#">Fourth Sem</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2. </td>
+                    <td>2022-23</td>
+                    <td>
+                      <a href="#">First Sem</a> | <a href="#">Second Sem</a> | <a href="#">Third Sem</a> | <a
+                        href="#">Fourth Sem</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3. </td>
+                    <td>2021-22</td>
+                    <td>
+                      <a href="#">First Sem</a> | <a href="#">Second Sem</a> | <a href="#">Third Sem</a> | <a
+                        href="#">Fourth Sem</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>4. </td>
+                    <td>2020-21</td>
+                    <td>
+                      <a href="#">First Sem</a> | <a href="#">Second Sem</a> | <a href="#">Third Sem</a> | <a
+                        href="#">Fourth Sem</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>5. </td>
+                    <td>2019-20</td>
+                    <td>
+                      <a href="#">First Sem</a> | <a href="#">Second Sem</a> | <a href="#">Third Sem</a> | <a
+                        href="#">Fourth Sem</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <br>
+
+            <h3 id="phd-PYQ">Ph.D. Operational Research PYQ</h3>
+            <section>
+              <table class="academics-table">
+                <thead>
+                  <tr>
+                    <th>S. No.</th>
+                    <th>Year</th>
+                    <th>PYQs</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1. </td>
+                    <td>2023-24</td>
+                    <td>
+                      <a href="#">View Details for all Years</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2. </td>
+                    <td>2022-23</td>
+                    <td>
+                      <a href="#">View Details for all Years</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3. </td>
+                    <td>2021-22</td>
+                    <td>
+                      <a href="#">View Details for all Years</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>4. </td>
+                    <td>2020-21</td>
+                    <td>
+                      <a href="#">View Details for all Years</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>5. </td>
+                    <td>2019-20</td>
+                    <td>
+                      <a href="#">View Details for all Years</a>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </section>
+            <br>
+
+            <h2 class="about-title" id="academic-calander">Academic Calander</h2>
+            <section>
+
+              <table class="academics-table">
+                <thead>
+                  <tr>
+                    <th>S. No.</th>
+                    <th>Course</th>
+                    <th>Year</th>
+                    <th>Academic Calander</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1. </td>
+                    <td>Ph.D. Operational Research and Master of Operational Research</td>
+                    <td>2025 - 2026</td>
+                    <td>
+                      <a href="#">View PDF (will be uploaded)</a>
+                    </td>
+                  </tr>
+
+                  <td>2. </td>
+                    <td>Ph.D. Operational Research and Master of Operational Research</td>
+                    <td>2024 - 2025</td>
+                    <td>
+                      <a href="document/academic calander/ac_24-25.pdf" target="_blank">View PDF</a>
+                    </td>
+                  </tr>
+
+                  <td>3. </td>
+                    <td>Ph.D. Operational Research and Master of Operational Research</td>
+                    <td>2023 - 2024</td>
+                    <td>
+                      <a href="document/academic calander/ac_23-24.pdf" target="_blank">View PDF</a>
+                    </td>
+                  </tr>
+                  
+
+                </tbody>
+              </table>
+            </section><br>
+
+            <h2 class="about-title" id="timetable">Timetables</h2>
+            <section>
+              <p>Details will be added soon.</p>
+            </section>
+
+            <h2 class="about-title" id="examination-and-results">Examination and Results</h2>
+
+             <section>
+              <p>Details will be added soon.</p>
+            </section>
+
+
+
+
+
+    </div>
+    </section>
+  </div>
+  <br>
+
+  </div>
+
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Useful Links -->
+      <div class="footer-box">
+        <h4><a href="academics.html#useful-links">Useful Links</a></h4>
+        <ul>
+          <li><a href="https://www.du.ac.in/">DU Official Website</a></li>
+          <li><a href="https://admission.uod.ac.in/">Admission Portal</a></li>
+          <li><a href="#">NEP Curriculum</a></li>
+          <li><a href="opportunities.html#placement">Placement Cell</a></li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-box">
+        <h4><a href="academics.html#useful-links">Quick Links</a></h4>
+        <ul>
+          <li><a href="#">Department Brochure</a></li>
+          <li><a href="about-us.html#accomplishments">Awards & Honours</a></li>
+          <li><a href="research&innovation.html#projects">Research Projects</a></li>
+          <li><a href="#">Event Calendar</a></li>
+          <li><a href="#">Virtual Tour</a></li>
+        </ul>
+      </div>
+
+      <!-- Location Map -->
+      <div class="footer-box">
+        <h4>Our Location</h4>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d218.75327893638672!2d77.2069201781018!3d28.68807720739082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd93a2da85a1%3A0x3e2ad5a667506bbb!2sDepartment%20of%20Operational%20Research%2C%20North%20Campus!5e0!3m2!1sen!2sin!4v1750668064661!5m2!1sen!2sin"
+          width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Contact & Login -->
+      <div class="footer-box">
+        <h4>Contact Us</h4>
+        <p>
+          Department of Operational Research,<br>
+          University of Delhi,<br>
+          Delhi - 110007, India
+        </p>
+        <p>📞 +91-11-2766XXXX</p>
+        <p>✉️ <a href="mailto:head@or.du.ac.in">head@or.du.ac.in</a></p>
+
+        <div class="login-links">
+          <a href="https://slc.uod.ac.in/">Student Login</a><br>
+          <a href="https://slc.uod.ac.in/">Faculty Login</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Department of Operational Research, University of Delhi | All Rights Reserved</p><br>
+      <p>Designed and Developed by <a href="https://www.linkedin.com/in/sakshamraj1/" target="_blank"
+          style="color: white; font-family: 'Times New Roman'; font-size: small;">SAKSHAM RAJ</a></p>
+    </div>
+  </footer>
+
+<script>
+    let currentFontSize = 16;
+
+    function adjustFontSize(change) {
+      currentFontSize += change;
+      document.body.style.fontSize = currentFontSize + 'px';
+    }
+
+  </script>
+  
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const OFFSET = 190; // Height to offset from top
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+          const targetId = this.getAttribute("href");
+          if (targetId.length > 1) {
+            e.preventDefault();
+            const target = document.querySelector(targetId);
+            if (target) {
+              const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+              window.scrollTo({
+                top: targetPosition - OFFSET,
+                behavior: "smooth"
+              });
+            }
+          }
+        });
+      });
+    });
+  </script>
+
+
+  <script>
+    window.addEventListener("load", function () {
+      if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+          const OFFSET = 190;
+          setTimeout(() => {
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+              top: targetPosition - OFFSET,
+              behavior: "smooth"
+            });
+          }, 100); // slight delay ensures content is rendered
+        }
+      }
+    });
+  </script>
+
+
+</body>
+
+</html>

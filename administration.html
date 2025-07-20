@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DOR | DU</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/about-us.css">
+  <link rel="stylesheet" href="style/administration.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <!-- HEADER -->
+  <header class="header">
+    <div class="left-header">
+      <a href="https://www.du.ac.in/" target="_blank" class="header-link">
+        DU Website
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="16" width="16"
+             fill="currentColor">
+          <path d="M448 80v352c0 26.51-21.49 48-48 48H48c-26.51 0-48-21.49-48-48V80c0-26.51 
+            21.49-48 48-48h352c26.51 0 48 21.49 48 48zm-88 16H248.029c-21.313 0-32.08 
+            25.861-16.971 40.971l31.984 31.987L67.515 364.485c-4.686 4.686-4.686 12.284 
+            0 16.971l31.029 31.029c4.687 4.686 12.285 4.686 16.971 
+            0l195.526-195.526 31.988 31.991C358.058 263.977 384 253.425 
+            384 231.979V120c0-13.255-10.745-24-24-24z" />
+        </svg>
+      </a>
+
+      <a href="mailto:head@or.du.ac.in" class="header-link">✉️ head@or.du.ac.in</a>
+      <a href="#" class="header-link">Department Brochure</a>
+      <a href="#" class="header-link">Virtual Tour</a>
+    </div>
+
+
+    <div class="right-header">
+
+      <!-- Login -->
+      <div class="login-dropdown">
+        <button class="dropbtn">Login</button>
+        <div class="dropdown-content">
+          <a href="https://slc.uod.ac.in/">Students (or)<br>Ex-Students</a>
+          <a href="#">Alumni</a>
+          <a href="https://slc.uod.ac.in/">Faculty and Staff</a>
+        </div>
+      </div>
+
+      <!-- Font Size Control -->
+      <button onclick="adjustFontSize(1)">A+</button>
+      <button onclick="adjustFontSize(-1)">A-</button>
+
+      <!-- Theme Toggle -->
+      <button onclick="toggleTheme()">🌓 Theme</button>
+
+      <!-- Login Dropdown -->
+
+
+
+    </div>
+    </div>
+  </header>
+
+  <div class="top-full-header">
+
+    <div class="main-header">
+      <div class="left-logo">
+        <a href="https://www.du.ac.in/">
+          <img src="img/DULOGO.png" alt="DU Logo" class="logo" width="130" height="130">
+        </a>
+
+      </div>
+
+      <div class="center-logo">
+        <a href="index.html">
+          <img src="img/ORLOGO.png" alt="Department Logo" class="logo" width="130" height="130">
+        </a>
+
+      </div>
+
+      <div class="right-search">
+        <form class="search-form" action="#" method="get">
+          <input type="text" placeholder="Search..." name="q">
+          <button type="submit">🔍</button>
+        </form>
+      </div>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li class="nav-item dropdown">
+          <a href="index.html">Home</a>
+        </li>
+
+        <!-- About Us Menu -->
+        <li class="nav-item dropdown">
+          <a href="about-us.html">About us</a>
+          <ul class="dropdown-menu">
+            <li><a href="about-us.html#welcome">Welcome</a></li>
+            <li><a href="about-us.html#history">History</a></li>
+            <li><a href="about-us.html#vision-mission">Vision and Mission</a></li>
+
+            <!-- Campus Submenu -->
+            <li class="dropdown-submenu">
+              <a href="about-us.html#campus">Campus</a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html#campus">Research Labs</a></li>
+                <li><a href="about-us.html#campus">Seminar & Lecture Rooms</a></li>
+                <li><a href="about-us.html#campus">Research Scholar Room</a></li>
+                <li><a href="about-us.html#campus">Computer Lab</a></li>
+                <li><a href="about-us.html#campus">Committee Room</a></li>
+                <li><a href="about-us.html#campus">Library</a></li>
+                <li><a href="about-us.html#campus">Disabled-Friendly Campus</a></li>
+                <li><a href="about-us.html#campus">Clean and Green Campus</a></li>
+              </ul>
+            </li>
+
+            <li><a href="about-us.html#ranking">Ranking</a></li>
+
+            <!-- Accomplishments Submenu -->
+            <li class="dropdown-submenu">
+              <a href="about-us.html#accomplishments">Accomplishments<br>(Awards, Honours, PMRF)</a>
+              <ul class="dropdown-menu">
+                <li><a href="about-us.html#department">Department</a></li>
+                <li><a href="about-us.html#faculty">Faculty</a></li>
+                <li><a href="about-us.html#students">Students</a></li>
+              </ul>
+            </li>
+
+            <li><a href="about-us.html#annual-reports">Annual Reports</a></li>
+            <li><a href="about-us.html#brochure">Brochure</a></li>
+            <li><a href="about-us.html#contact-us">Contact Us</a></li>
+          </ul>
+        </li>
+
+        <!-- Administration Menu -->
+        <li class="nav-item dropdown">
+          <a href="administration.html">Administration</a>
+          <ul class="dropdown-menu">
+
+            <!-- Committees Submenu -->
+            <li class="dropdown-submenu">
+              <a href="administration.html#committees">Committees</a>
+              <ul class="dropdown-menu">
+                <li><a href="administration.html#iqac">Internal Quality and Assurance Committee</a></li>
+                <li><a href="administration.html#committees">Anti-Ragging/No Substance Abuse and Anti-Smoking
+                    Committee</a></li>
+                <li><a href="administration.html#committees">Anti-Sexual Harassment & Gender Sensitization Committee</a>
+                </li>
+                <li><a href="administration.html#committees">Compilation of Internal Assessment/Optional Allotment
+                    Committee</a></li>
+                <li><a href="administration.html#committees">SC/ST/OBC/PwD Students/Teaching/Non-teaching Staff
+                    Grievance Committee</a>
+                </li>
+                <li><a href="administration.html#committees">North-East Student Grievance Committee</a></li>
+                <li><a href="administration.html#committees">U-75 Net-Zero Movement on Carbon Neutral Campus</a></li>
+                <li><a href="administration.html#committees">Placement Cell Committee</a></li>
+                <li><a href="administration.html#committees">Udhmodya Scheme</a></li>
+                <li><a href="administration.html#committees">Cultural Committees</a></li>
+                <li><a href="administration.html#committees">Departmental Library Committee</a></li>
+                <li><a href="administration.html#committees">Department Sports Committee</a></li>
+                <li><a href="administration.html#committees">Department Website Committee</a></li>
+                <li><a href="administration.html#committees">Students Grievance Committee</a></li>
+                <li><a href="administration.html#committees">Workload/Timetable Committee</a></li>
+              </ul>
+            </li>
+
+            <!-- Redressal Mechanisms Submenu -->
+            <li class="dropdown-submenu">
+              <a href="administration.html#redressal-mechanism">Redressal Mechanisms</a>
+              <ul class="dropdown-menu">
+                <li><a href="administration.html#redressal-mechanism">SC/ST/OBC Grievance Committee</a></li>
+                <li><a href="administration.html#redressal-mechanism">North-East Student Welfare Committee</a></li>
+                <li><a href="administration.html#redressal-mechanism">Anti-Ragging/No Substance Abuse Committee</a></li>
+                <li><a href="administration.html#redressal-mechanism">Student Grievance Committee</a></li>
+
+                <!-- University Level Submenu -->
+                <li class="dropdown-submenu">
+                  <a href="administration.html#redressal-mechanism-at-du">At University Level</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="administration.html#redressal-mechanism-at-du">Student Grievance Portal</a></li>
+                    <li><a href="administration.html#redressal-mechanism-at-du">Equal Opportunity Cell (EOC)</a></li>
+                    <li><a href="administration.html#redressal-mechanism-at-du">Internal Complaints Committee (ICC)</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+        </li>
+
+        <!-- Research and Innovation -->
+        <li class="nav-item dropdown">
+          <a href="research&innovation.html">Research & Innovation</a>
+          <ul class="dropdown-menu">
+            <li><a href="research&innovation.html#research-focus-areas">Research Focus Areas</a></li>
+            <li><a href="research&innovation.html#publications">Publications</a></li>
+            <li><a href="research&innovation.html#books-authored">Books Authored</a></li>
+            <li><a href="research&innovation.html#research-grants">Research Grants</a></li>
+            <li><a href="research&innovation.html#research-scholars-thesis">Research Scholars Thesis</a></li>
+            <li><a href="research&innovation.html#projects">Projects</a></li>
+            <li><a href="research&innovation.html#patents">Patents</a></li>
+            <li><a href="research&innovation.html#collaborations">Collaborations</a></li>
+            <li><a href="research&innovation.html#phd-awarded">Ph.D. Awarded</a></li>
+          </ul>
+        </li>
+
+        <!-- Academics -->
+        <li class="nav-item dropdown">
+          <a href="academics.html">Academics</a>
+          <ul class="dropdown-menu">
+            <li><a href="academics.html#mor_du">Master of Operational Research</a></li>
+            <li><a href="academics.html#phd-intro">Ph.D. Operational Research</a></li>
+            <li><a href="academics.html#e-resources">E-resources (Library, etc.)</a></li>
+            <li><a href="academics.html#useful-links">Useful Links</a></li>
+            <li><a href="academics.html#pyq_or">PYQs with Solutions</a></li>
+            <li><a href="academics.html#academic-calander">Academic Calendar</a></li>
+            <li><a href="academics.html#timetable">Time Tables</a></li>
+            <li><a href="academics.html#examination-and-results">Examination & Results</a></li>
+          </ul>
+        </li>
+
+        <!-- Opportunities -->
+        <li class="nav-item dropdown">
+          <a href="opportunities.html">Opportunities</a>
+          <ul class="dropdown-menu">
+            <li><a href="opportunities.html#student-life">Student Life</a></li>
+            <li><a href="opportunities.html#placement">Placement</a></li>
+            <li><a href="opportunities.html#scholarship-internships">Scholarships / Internships</a></li>
+            <li><a href="opportunities.html#conferences">Conferences</a></li>
+          </ul>
+        </li>
+
+        <!-- Admission -->
+        <li class="nav-item dropdown">
+          <a href="admission.html">Admission</a>
+          <ul class="dropdown-menu">
+            <li><a href="admission.html#mor_admission">M.Sc. Operational Research</a></li>
+            <li><a href="admission.html#phd_admission">Ph.D. Operational Research</a></li>
+          </ul>
+        </li>
+
+        <!-- People -->
+        <li class="nav-item dropdown">
+          <a href="people.html">People</a>
+          <ul class="dropdown-menu">
+            <li><a href="people.html#faculty">Faculty</a></li>
+            <li><a href="people.html#honorary-professor">Honorary Professor</a></li>
+            <li><a href="people.html#former-faculty">Former Faculty</a></li>
+            <li><a href="people.html#post-doc-fellows">Postdoc Fellows</a></li>
+            <li><a href="people.html#research-dcholars">Research Scholars</a></li>
+            <li><a href="people.html#phd-students">Ph.D. Students</a></li>
+            <li><a href="people.html#mor-students">M.Sc. Students</a></li>
+            <li><a href="people.html#former-HODs">Former HODs</a></li>
+            <li><a href="people.html#people.html">Staff</a></li>
+          </ul>
+        </li>
+
+        <!-- Alumni -->
+        <li class="nav-item dropdown">
+          <a href="alumni.html">Alumni</a>
+          <ul class="dropdown-menu">
+            <li><a href="alumni.html#alumni_cell">Alumni Relation Cell</a></li>
+            <li><a href="alumni.html#distinguished_alumni">Distinguished Alumni</a></li>
+          </ul>
+        </li>
+
+        <!-- Gallery -->
+        <li class="nav-item">
+          <a href="gallery.html">Gallery</a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Event Wise Photos</a></li>
+          </ul>
+        </li>
+    </nav>
+
+
+  </div>
+
+  <!-- ------------------------------------------------------------------------------------------ -->
+
+  <div class="about-container">
+    <!-- Sidebar -->
+    <div class="about-sidebar">
+      <ul class="about-menu">
+
+        <!-- Committees Section -->
+        <li>
+          <details>
+            <summary>Committees</summary>
+            <ul>
+              <li><a href="#iqac">Internal Quality and Assurance Committee</a></li>
+              <li><a href="#arns">Anti-Ragging/No Substance Abuse and Anti-Smoking Committee</a></li>
+              <li><a href="#ash">Anti-Sexual Harassment & Gender Sensitization Committee</a></li>
+              <li><a href="#coia">Compilation of Internal Assessment/Optional Allotment Committee</a></li>
+              <li><a href="#sc-st-obc">SC/ST/OBC/PwD Students/Teaching/Non-teaching Staff Grievance Committee</a></li>
+              <li><a href="#nesgc">North-East Student Grievance Committee</a></li>
+              <li><a href="#u75">U-75 Net-Zero Movement on Carbon Neutral Campus</a></li>
+              <li><a href="#placement-cell">Placement Cell Committee</a></li>
+              <li><a href="#us">Udhmodya Scheme</a></li>
+              <li><a href="#cc">Cultural Committees</a></li>
+              <li><a href="#dlc">Departmental Library Committee</a></li>
+              <li><a href="#dsc">Department Sports Committee</a></li>
+              <li><a href="#dwc">Department Website Committee</a></li>
+              <li><a href="#sgc">Students Grievance Committee</a></li>
+              <li><a href="#wtc">Workload/Timetable Committee</a></li>
+            </ul>
+          </details>
+        </li>
+
+        <!-- Redressal Mechanism Section -->
+        <li>
+          <details>
+            <summary>Redressal Mechanism</summary>
+            <ul>
+              <li><a href="#redressal-mechanism">SC/ST/OBC Students/Teaching/Non-teaching Staff Grievance Committee</a>
+              </li>
+              <li><a href="#redressal-mechanism">North-East Student Welfare Committee</a></li>
+              <li><a href="#redressal-mechanism">Anti-Ragging/No Substance Abuse and No Smoking Committee</a></li>
+              <li><a href="#redressal-mechanism">Student Grievance Committee</a></li>
+
+              <!-- Nested: At University Level -->
+              <li>
+                <details>
+                  <summary>At University Level</summary>
+                  <ul>
+                    <li><a href="#redressal-mechanism-at-du">Student Grievance Portal</a></li>
+                    <li><a href="#redressal-mechanism-at-du">Equal Opportunity Cell <br>(EOC)</a></li>
+
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="about-content">
+
+      <!-- Welcome Section -->
+      <h2 class="about-title" id="Committees">Committees</h2>
+      <section class="committees">
+        <div>
+          <p>
+            Committees at the <strong>Department of Operational Research, Delhi University</strong> play a pivotal role
+            in
+            ensuring <strong>transparent</strong>, <strong>inclusive</strong>, and <strong>efficient academic and
+              administrative functioning</strong>. Each department establishes multiple committees such as the
+            <strong>Anti-Ragging Committee</strong>, <strong>Internal Quality Assurance Cell (IQAC)</strong>,
+            <strong>Grievance Redressal Committee</strong>, and <strong>Placement Cell</strong> to address specific
+            responsibilities. These committees not only implement <strong>university guidelines</strong> but also foster
+            <strong>student engagement</strong>, <strong>faculty coordination</strong>, and <strong>institutional
+              development</strong>. Through <strong>structured roles</strong>, <strong>timely interventions</strong>,
+            and
+            <strong>participative decision-making</strong>, committees contribute to maintaining the university’s
+            <strong>academic standards</strong> and <strong>inclusive environment</strong>. By empowering
+            <strong>faculty
+              and students alike</strong>, they strengthen the overall governance and uphold the <strong>rich
+              legacy</strong> of <strong>Delhi University</strong> as a <strong>leading educational
+              institution</strong>.
+          </p>
+
+
+          <ul class="pointers">
+            <li> <strong style="font-weight: 700;">The Internal Quality Assurance Cell </strong>is a structured body
+              within academic institutions,
+              established to ensure continuous improvement in academic and administrative performance.
+            </li>
+
+            <li><strong style="font-weight: 700;">Encourages submissions</strong> rooted in interdisciplinary
+              approaches, offering
+              <strong>real-world case studies</strong> and exploring <strong>new research
+                directions</strong> in OR/MS and Analytics.
+            </li>
+
+            <li><strong style="font-weight: 700;">Focuses on advancing OR/MS and Analytics</strong> through a
+              combination of
+              <strong>theoretical developments</strong> and <strong>practical applications</strong> across
+              diverse sectors.
+            </li>
+          </ul>
+          </p>
+        </div>
+      </section> <br>
+
+      <!-- All Committees -->
+      <section class="all-comittees">
+
+        <div class="committees" id="Committees">
+          <h3 id="iqac">Internal Quality and Assurance Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>This committee ensures continuous improvement in academic and administrative performance through
+                strategic planning, feedback mechanisms, and quality benchmarking practices.</p>
+            </li>
+            <table class="ranking-table">
+              <thead>
+                <tr>
+                  <th>Committee Name</th>
+                  <th>Convener / Nodal Officer</th>
+                  <th>Contact</th>
+                  <th>Members</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>IQAC</td>
+                  <td>Dr. Vandana Khaitan</td>
+                  <td>9319509122<br>khaitan.vandana@gmail.com</td>
+                  <td>—</td>
+                </tr>
+              </tbody>
+            </table>
+          </ul>
+
+          <h3 id="arns">Anti-Ragging/No Substance Abuse and Anti-Smoking Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>Dedicated to creating a safe, inclusive, and healthy campus environment, this committee actively
+                monitors and prevents instances of ragging, substance abuse, and smoking within college premises.</p>
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Anti‑Smoking Committee</td>
+                    <td>Sr. Prof. Pankaj Gupta</td>
+                    <td>9811685430<br>pgupta@or.du.ac.in</td>
+                    <td>Prof. Mukesh Kumar Mehlawat, Dr. Shilpi Verma, Dr. Kaushal Kumar, Dr. Gurjeet Kaur, Dr.
+                      Jagvinder Singh</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+
+          <h3 id="ash">Anti-Sexual Harassment & Gender Sensitization Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>Responsible for promoting gender equity and a respectful atmosphere, the committee addresses
+                complaints
+                related to sexual harassment and conducts awareness programs on gender sensitivity.</p>
+
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Anti-Sexual Harassment & Gender Sensitization Committee</td>
+                    <td>Sr. Prof. Preeti Wanti Srivastava</td>
+                    <td>9811468144<br>pw_srivastava@yahoo.co.in</td>
+                    <td>Dr. Aditi Khanna, Dr. Vandana Khaitan, Dr. Abhishek Tandon, Dr. Adarsh Anand, Dr. Gurjeet
+                      Kaur,
+                      Chanchal,
+                      Deeksha Manchanda, Fathima Siyad, Suman Jyani, Chandra Mohan Singh, Jaypal Singh</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+
+          <h3 id="coia">Compilation of Internal Assessment/Optional Allotment Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>This committee oversees the systematic recording and verification of internal assessment marks and
+                ensures fair and transparent allotment of optional subjects to students.</p>
+            </li>
+          </ul>
+
+          <h3 id="sc-st-obc">SC/ST/OBC/PwD Students/Teaching/Non-teaching Staff Grievance Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>It aims to address grievances of marginalized groups by promoting social justice and inclusivity,
+                ensuring that no member of the institution feels discriminated against or unheard.</p>
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+
+                    <td>SC/ST/OBC Students/Teaching/Non-teaching Staff Grievance Committee</td>
+                    <td>Prof. K.K. Aggarwal</td>
+                    <td>9811569252<br>kkaggarwal@gmail.com</td>
+                    <td>Prof. Ompal Singh, Dr. Shilpi Verma, Dr. Adarsh Anand, Dr. Kaushal Kumar, Dr. Jagvinder Singh,
+                      Ms. Garima
+                      Babbar, Ms. Ishika Nath, Mr. Aditya Chaurasiya, Fathima Shabnam, Mrs. Mohini, Mr. Arun Nishad
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+
+          <h3 id="nesgc">North-East Student Grievance Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>Focused on the well-being of students from the North-East region, this committee provides assistance
+                in
+                grievance redressal and fosters an inclusive environment sensitive to cultural diversity.</p>
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+
+                    <td>North‑East Student Grievance Committee</td>
+                    <td>Sr. Prof. Chandra K. Jaggi</td>
+                    <td>9891919399<br>ckjaggi@yahoo.com</td>
+                    <td>Sr. Prof. P.C. Jha, Sr. Prof. Pankaj Gupta, Prof. K.K. Aggarwal, Prof. Anu Gupta Aggarwal,
+                      Prof.
+                      Ompal
+                      Singh, Prof. Mukesh Kumar Mehlawat, Lalremruati</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+
+          <h3 id="u75">U-75 Net-Zero Movement on Carbon Neutral Campus</h3>
+          <ul class="pointers">
+            <li>
+              <p>This eco-initiative committee drives sustainability efforts in line with India's U-75 campaign,
+                promoting green practices and environmental awareness to achieve carbon neutrality.</p>
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>U-75 Net‑Zero Movement on Carbon Neutral Campus</td>
+                    <td>Dr. Kaushal Kumar</td>
+                    <td>9911669169<br>kaushalkaushy@gmail.com</td>
+                    <td>—</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+
+          <h3 id="placement-cell">Placement Cell Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>The committee bridges the gap between academia and industry by organizing placement drives,
+                internships, and career counseling sessions to enhance student employability.</p>
+            </li>
+
+            <table class="ranking-table">
+              <thead>
+                <tr>
+                  <th>Committee Name</th>
+                  <th>Convener / Nodal Officer</th>
+                  <th>Contact</th>
+                  <th>Members</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Campus Placement<br><strong>TEAM - ZENITH</strong></td>
+                  <td> Dr. Aditi Khanna<br> <br>Dr. Adarsh Anand<br><br>
+                    Dr. Kaushal Kumar </td>
+                  <td> 9911007707<br>dr.aditikhanna.or@gmail.com<br><br>
+                    9650290291<br>adarsh.anand86@gmail.com<br><br> 9911669169<br>kaushalkaushy@gmail.com </td>
+                  <td> <strong>Students' Team 2024-25:</strong><br> Akanksha Verma, Dewanshi Srivastav, Diksha
+                    Manchanda, Fathima Siyad, Kajal Kansal, Sahil Yadav, Shashank Mehrotra, Sudeb Sarkar, Yakshi Verma
+                    <br><br> <strong>Students' Team 2023-24:</strong><br> Amritya Khajuria, Ankit, Anshika Gupta,
+                    Lakshay Sharma, Pradhyuman Shekhawat, Praveen Shahani, Prerna Negi, Sakshi Arora, Sanskar Saxena,
+                    Shubrika Ahuja <br><br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <li>
+              <p style="font-weight: 500;"> <strong>
+                  Report (Session: 2022–23):</strong><br> 30+ companies visited the Department for campus placements
+                during 2022–23, with the <strong>Highest package (CTC) of INR 19.7 lakhs</strong>. </p>
+            </li>
+          </ul>
+
+          <h3 id="us">Udhmodya Scheme</h3>
+          <ul class="pointers">
+            <li>
+              <p>Aligned with the vision of fostering innovation and entrepreneurship, this committee encourages
+                student-led startups and provides support for developing business models under the Udhmodya Scheme.
+              </p>
+
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tr>
+                  <td>Udhmodya Scheme</td>
+                  <td>Dr. Sameer Anand</td>
+                  <td>9818747783<br>sameer.anand@sscbsdu.ac.in</td>
+                  <td>—</td>
+                </tr>
+                </tbody>
+              </table>
+
+            </li>
+          </ul>
+
+          <h3 id="cc">Cultural Committees</h3>
+          <ul class="pointers">
+            <li>
+              <p>These committees nurture students' creative talents by organizing cultural events, festivals, and
+                competitions that reflect the vibrancy and diversity of the student community.</p>
+
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                  <tr>
+                    <td>Cultural Committee</td>
+                    <td>Dr. Abhishek Tandon</td>
+                    <td>9968392392<br>abhishektandon86@gmail.com</td>
+                    <td>Dr. Adarsh Anand, Dr. Kaushal Kumar, Dr. Gurjeet Kaur, Dr. Jagvinder Singh</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+          </ul>
+
+          <h3 id="dlc">Departmental Library Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>Responsible for maintaining and upgrading library resources, this committee ensures easy access to
+                academic materials, e-resources, and supports research needs of students and faculty.</p>
+            </li>
+          </ul>
+
+
+          <h3 id="dsc">Department Sports Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>This committee promotes physical fitness and sportsmanship by facilitating inter-college sports
+                events,
+                managing equipment, and encouraging student participation in athletics.</p>
+
+              Here's the Sports Committee entry formatted similarly to your Cultural Committee table structure:
+
+              <table class="ranking-table">
+                <thead>
+                  <tr>
+                    <th>Committee Name</th>
+                    <th>Convener / Nodal Officer</th>
+                    <th>Contact</th>
+                    <th>Members</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Sports Committee</td>
+                    <td>
+                      Dr. Adarsh Anand<br><br>
+                      Dr. Kaushal Kumar<br><br>
+                      Dr. Gurjeet Kaur
+                    </td>
+                    <td>
+                      9650290291<br>adarsh.anand86@gmail.com<br><br>
+                      9911669169<br>kaushalkaushy@gmail.com<br><br>
+                      9868353778<br>gurjeetkaur85@gmail.com
+                    </td>
+                    <td>Student Team (2024-2025) <br><br>
+                      Aditya Chaurasiya, Anshika Saini, Asheesh Kumar, Deepak Yadav, Ishika Nath, Kamaltosh Jha, Meena
+                      Kumari, Mohd. Shadh A.P., Pooja Beniwal, Pulkit Khattar, Siddhant, Suman Jyani, Vikas Bhatia
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </li>
+          </ul>
+
+          <h3 id="dwc">Department Website Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>Maintains and updates the department’s official website, ensuring timely dissemination of information
+                and showcasing academic and co-curricular activities of the department.</p>
+            </li>
+          </ul>
+
+          <h3 id="sgc">Students Grievance Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>Dedicated to resolving student issues promptly and fairly, this committee ensures that student voices
+                are heard and a conducive learning environment is maintained.</p>
+              <table class="ranking-table">
+                <table class="ranking-table">
+                  <thead>
+                    <tr>
+                      <th>Committee Name</th>
+                      <th>Convener / Nodal Officer</th>
+                      <th>Contact</th>
+                      <th>Members</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Students Grievance Committee</td>
+                      <td>Dr. Aditi Khanna</td>
+                      <td>991007707<br>dr.aditikhanna.or@gmail.com</td>
+                      <td>Dr. Abhishek Tandon, Dr. Shilpi Verma, Dr. Adarsh Anand, Dr. Jagvinder Singh</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </li>
+          </ul>
+
+          <h3 id="wtc">Workload/Timetable Committee</h3>
+          <ul class="pointers">
+            <li>
+              <p>This committee manages faculty workload distribution and constructs efficient class timetables,
+                ensuring balanced academic schedules and optimal resource utilization.</p>
+            </li>
+          </ul> <br>
+
+
+        </div>
+      </section>
+
+      <h2 class="about-title" id="redressal-mechanism">Redressal Mechanism</h2>
+      <section class="committees">
+        <div>
+          <p>
+            Redressal Mechanism at the <strong>University of Delhi</strong> refers to the structured systems and
+            committees established to resolve <strong>student and staff grievances</strong>, ensure
+            <strong>fairness</strong>, and uphold <strong>institutional integrity</strong>. These mechanisms are aligned
+            with <strong>UGC guidelines</strong> and aim to foster a <strong>safe</strong>, <strong>inclusive</strong>,
+            and <strong>transparent academic environment</strong>. Through multiple <strong>committees</strong> and
+            <strong>digital platforms</strong>, the University ensures that grievances are addressed
+            <strong>promptly</strong>, <strong>fairly</strong>, and <strong>transparently</strong>, thereby reinforcing
+            its commitment to <strong>justice</strong>, <strong>equality</strong>, and <strong>excellence in higher
+              education</strong>..
+          </p>
+
+        </div>
+
+        <h3 id="redressal-mechanism">SC/ST/OBC Students/Teaching/Non-teaching Staff Grievance Committee</h3>
+        <ul class="pointers">
+          <li>
+            <p>This committee ensures equal opportunities and promptly addresses caste-based discrimination,
+              grievances, and welfare concerns of SC/ST/OBC students, teaching, and non-teaching staff in accordance
+              with UGC guidelines.</p>
+          </li>
+        </ul>
+
+        <h3 id="redressal-mechanism">SC/ST/OBC Students/Teaching/Non-teaching Staff Grievance Committee</h3>
+        <ul class="pointers">
+          <li>
+            <p>This committee enforces zero tolerance against ragging, substance abuse, and smoking. It organizes
+              awareness campaigns and ensures a safe, disciplined, and healthy campus environment for all university
+              stakeholders.</p>
+          </li>
+        </ul>
+
+
+        <h3 id="redressal-mechanism">Anti-Ragging/No Substance Abuse and No Smoking Committee<h3>
+            <ul class="pointers">
+              <li>
+                <p>This committee ensures equal opportunities and promptly addresses caste-based discrimination,
+                  grievances, and welfare concerns of SC/ST/OBC students, teaching, and non-teaching staff in
+                  accordance with UGC guidelines.</p>
+              </li>
+            </ul>
+
+            <h3>Student Grievance Committee<h3>
+                <ul class="pointers">
+                  <li>
+                    <p>Dedicated to resolving academic, infrastructural, and administrative grievances of students,
+                      this committee promotes transparency and fairness while safeguarding student rights in line with
+                      UGC and university protocols.</p>
+                  </li>
+                </ul>
+
+                <h3 id="redressal-mechanism-at-du">At University Level<h3>
+                    <ul class="pointers">
+                      <li>
+                        <p id="redressal-mechanism-at-du"> <strong>Student Grievance Portal</strong>: The Student
+                          Grievance Portal is an online
+                          platform developed by Delhi University to address students’ academic, administrative, and
+                          behavioral complaints transparently. It allows students to submit concerns and track
+                          resolutions efficiently and confidentially.</p>
+                      <li>
+                        <p id="redressal-mechanism-at-du"> <strong>Equal Opportunity Cell (EOC)</strong>: The Equal
+                          Opportunity Cell ensures
+                          inclusivity and equal academic and infrastructural access to marginalized groups,
+                          including SC/ST/OBC, PwD, and minorities. It advocates fair policies and promotes equity
+                          across all university departments.</p>
+                      </li>
+
+                    </ul>
+
+      </section>
+
+      <br>
+    </div>
+  </div>
+
+  <!-- ----------------------Footer ----------------------->
+
+  <footer class="footer">
+    <div class="footer-container">
+      <!-- Useful Links -->
+      <div class="footer-box">
+        <h4><a href="academics.html#useful-links">Useful Links</a></h4>
+        <ul>
+          <li><a href="https://www.du.ac.in/">DU Official Website</a></li>
+          <li><a href="https://admission.uod.ac.in/">Admission Portal</a></li>
+          <li><a href="#">NEP Curriculum</a></li>
+          <li><a href="opportunities.html#placement">Placement Cell</a></li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-box">
+        <h4><a href="academics.html#useful-links">Quick Links</a></h4>
+        <ul>
+          <li><a href="#">Department Brochure</a></li>
+          <li><a href="about-us.html#accomplishments">Awards & Honours</a></li>
+          <li><a href="research&innovation.html#projects">Research Projects</a></li>
+          <li><a href="#">Event Calendar</a></li>
+          <li><a href="#">Virtual Tour</a></li>
+        </ul>
+      </div>
+
+      <!-- Location Map -->
+      <div class="footer-box">
+        <h4>Our Location</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d218.75327893638672!2d77.2069201781018!3d28.68807720739082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd93a2da85a1%3A0x3e2ad5a667506bbb!2sDepartment%20of%20Operational%20Research%2C%20North%20Campus!5e0!3m2!1sen!2sin!4v1750668064661!5m2!1sen!2sin"
+                width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Contact & Login -->
+      <div class="footer-box">
+        <h4>Contact Us</h4>
+        <p>
+          Department of Operational Research,<br>
+          University of Delhi,<br>
+          Delhi - 110007, India
+        </p>
+        <p>📞 +91-11-2766XXXX</p>
+        <p>✉️ <a href="mailto:head@or.du.ac.in">head@or.du.ac.in</a></p>
+
+        <div class="login-links">
+          <a href="https://slc.uod.ac.in/">Student Login</a><br>
+          <a href="https://slc.uod.ac.in/">Faculty Login</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Department of Operational Research, University of Delhi | All Rights Reserved</p><br>
+      <p>Designed and Developed by <a href="https://www.linkedin.com/in/sakshamraj1/" target="_blank"
+           style="color: white; font-family: 'Times New Roman'; font-size: small;">SAKSHAM RAJ</a></p>
+    </div>
+  </footer>
+
+
+  <script>
+    let currentFontSize = 16;
+
+    function adjustFontSize(change) {
+      currentFontSize += change;
+      document.body.style.fontSize = currentFontSize + 'px';
+    }
+
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const OFFSET = 190; // Height to offset from top
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+          const targetId = this.getAttribute("href");
+          if (targetId.length > 1) {
+            e.preventDefault();
+            const target = document.querySelector(targetId);
+            if (target) {
+              const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+              window.scrollTo({
+                top: targetPosition - OFFSET,
+                behavior: "smooth"
+              });
+            }
+          }
+        });
+      });
+    });
+  </script>
+
+
+  <script>
+    window.addEventListener("load", function () {
+      if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+          const OFFSET = 190;
+          setTimeout(() => {
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+              top: targetPosition - OFFSET,
+              behavior: "smooth"
+            });
+          }, 100); // slight delay ensures content is rendered
+        }
+      }
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+strong {
+  font-weight: bold;
+}
+
+.pointers {
+  /*For UL*/
+  padding-left: 40px;
+  list-style-type: disc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+}
+
+.pointerss {
+  /*For OL*/
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 2rem;
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Remove default arrow */
+details summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-left: 20px;
+}
+
+/* table */
+
+.news-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+  max-width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.news-table th,
+.news-table td {
+  border: 1px solid #ccc;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  min-width: 10px;
+}
+
+.news-table th{
+    font-size: larger;
+}
+
+.news-table thead th {
+  background: radial-gradient(circle, #652b7c 40%, #d15eff 100%);
+  /* Dark maroon */
+  color: #ffffff;
+  font-weight: bold;
+  min-width: 10px;
+}
+
+.news-table tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.news-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.news-table a {
+  color: #600080;
+  font-weight: bolder;
+}
+
+.news-table td{
+    text-align: left;
+    /* line-height: 20px; */
+}
+
+tr th .wide-column {
+  min-width: 300px;
+}
