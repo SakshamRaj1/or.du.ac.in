@@ -1,0 +1,10 @@
+Red-yellow
+#ffcc00 - Yellow
+#ffd700 - Yellow
+#800000 - Maroon
+
+Purple-Magenta
+
+#652b7c - Purple
+#6f42c1 - Mid Purple
+#d15eff - Bright Magenta
