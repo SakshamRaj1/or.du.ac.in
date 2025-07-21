@@ -33,7 +33,7 @@ body {
   position: sticky;
   z-index: 100;
   background-color: #652b7c;
-  padding: 5px 5px;
+  padding: 0px px;
 }
 
 .pointers {
@@ -245,9 +245,9 @@ body {
 }
 
 .top-full-header {
-  position: sticky;
+  /* position: sticky; */
   top: 0;
-  z-index: 999;
+  z-index: 1000;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   /* optional */
@@ -277,7 +277,7 @@ body {
   background-color: #d15eff00;
   color: #d15eff;
   border-right: 5px double #d15eff;
-  border-bottom: 2px double #d15eff; 
+  border-bottom: 2px double #d15eff;
   border-radius: 20px;
   /* border-radius: 25px;
   /* border-bottom-right-radius: 25px;
@@ -310,6 +310,19 @@ body {
   flex-wrap: wrap;
   height: 30px;
 }
+
+.main-header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 30px 5px 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
 
 .left-header .link {
   margin-right: 15px;
@@ -351,7 +364,7 @@ body {
   height: 16.600px;
   transition: transform 0.2s ease;
   padding: 2px 7px;
-  
+
 }
 
 .theme-preview:hover {
@@ -363,17 +376,6 @@ body {
 body.dark-mode {
   background-color: #111;
   color: #ddd;
-}
-
-.main-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 9px 30px 5px 20px;
-  background-color: #f9f9f9;
-  border-bottom: 1px solid #ccc;
-  flex-wrap: wrap;
-  position: sticky;
 }
 
 .left-logo,
@@ -422,7 +424,7 @@ body.dark-mode {
   font-size: 0.95rem;
 }
 
-.search-form input>::placeholder{
+.search-form input>::placeholder {
   color: #652b7c;
   font-size: 0.95rem;
 }
@@ -430,16 +432,10 @@ body.dark-mode {
 .search-form button {
   color: white;
   border: none;
-  padding: 8px 15px;
+  padding: 4px 12px;
   cursor: pointer;
   font-size: 0.9rem;
-  
-  background-color:#d15eff;
-}
-
-.search-form button:hover {
-  background-color: #d15effad;
-  
+  background-color: #ffffff;
 }
 
 .left-header {
@@ -848,7 +844,7 @@ body.dark-mode {
   }
 }
 
-.button{
+.button {
   height: 20px;
 }
 
@@ -883,4 +879,3 @@ body.dark-mode {
 .card announcements li a {
   text-decoration: none;
 }
-
