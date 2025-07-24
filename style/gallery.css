@@ -92,11 +92,12 @@ details summary {
 
 .gallery img {
   border-radius: 20px;
-  border-right: 7px solid #d15eff;
+  
   max-width: 100%;
   display: inline;
 }
 
 .gallery img:hover{
-  transform: translateY(-6px);
+  border-right: 7px solid #d15eff;
+/*   transform: translateY(-6px); */
 }
