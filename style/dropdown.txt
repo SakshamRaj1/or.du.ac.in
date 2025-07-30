@@ -1,0 +1,233 @@
+
+.navigation a, .navigation .dropdown button {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  text-align: left;
+  background-color: #800000;
+  color: black;
+  min-width: 260px;
+  z-index: 1;
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  padding: 10px 15px;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Handle nested dropdowns */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: -1px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 280px;
+  z-index: 1000;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Positioning */
+.login-dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 9999; /* Ensures dropdown appears on top */
+}
+
+* Dropdown Content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;  /* aligns right edge with button */
+  background-color: #ffffff;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+  z-index: 10000;
+  border-radius: 6px;
+}
+
+/* Show Dropdown on Hover */
+.login-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Dropdown Items */
+.dropdown-content a {
+  color: #333;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f5f5f5;
+}
+
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: black;
+  min-width: 250px;
+  z-index: 9999;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  border: 0, 0, 0, 10px maroon;
+}
+
+
+----------------------------------------------------------------Updated CSS---------------------------------------------------
+
+/* General Navigation Links */
+.navigation a, 
+.navigation .dropdown button {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Segoe UI', sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover,
+.navigation .dropdown button:hover {
+  color: #ffd700;
+}
+
+/* Dropdown Container */
+.dropdown, .login-dropdown {
+  display: inline-block;
+  position: relative;
+  z-index: 9999;
+}
+
+/* Dropdown Content Box */
+.dropdown-content, .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 260px;
+  background: linear-gradient(to bottom right, #fffdfd, #fbeaea);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  z-index: 10000;
+  padding: 5px 0;
+  animation: dropdownFade 0.3s ease-in-out;
+}
+
+/* Dropdown Items */
+.dropdown-content a, 
+.dropdown-menu li a {
+  display: block;
+  padding: 12px 18px;
+  color: #333;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-family: 'Segoe UI', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-content a:hover,
+.dropdown-menu li a:hover {
+  background-color: #f7d8d8;
+  color: maroon;
+}
+
+/* Hover Activation */
+.dropdown:hover .dropdown-content,
+.login-dropdown:hover .dropdown-content,
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Nested Dropdowns */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 2px;
+  border-radius: 10px;
+}
+
+/* Animation */
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

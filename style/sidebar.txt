@@ -1,0 +1,50 @@
+.about-menu li a,
+.about-menu summary {
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  font-size: large;
+}
+
+.about-menu li a:hover,
+.about-menu summary:hover {
+  background-color: #ffcc00;
+  color: black;
+  transform: translateY(-6px);
+}
+
+
+/* Sidebar Styling */
+.about-sidebar {
+  width: 350px;
+  background-color: #ffcc00;
+  padding: 25px 20px;
+  border-right: 20px double #ffffff;
+  border-bottom: 20px solid #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: auto;
+
+  /* Sticky positioning */
+  position: sticky;
+  top: 200px;
+
+  /* Scrollbar on overflow */
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+
+  /* Rounded corners and soft shadow */
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+  border-radius: 10px 50px 225px 85px;
+  z-index: 100;
+
+  /* Smooth animation for hover */
+  transition: all 0.4s ease-in-out;
+}
+
+/* 🎯 Stylish Hover Effect */
+.about-sidebar:hover {
+  transform: translate(5px, -5px);/* Lift and shift */
+  background-color: #ffdb29;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);   /* Add depth */
+  border-right: 8px solid  maroon;
+}

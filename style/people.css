@@ -1,0 +1,275 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+strong {
+    font-weight: bold;
+}
+
+.pointers {
+    /*For UL*/
+    padding-left: 40px;
+    list-style-type: disc;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2rem;
+}
+
+.pointerss {
+    /*For OL*/
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 2rem;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Remove default arrow */
+details summary {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
+}
+
+.academics-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.academics-table th,
+.academics-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.academics-table thead th {
+    background: radial-gradient(circle, #652b7c 40%, #d15eff 100%);
+    /* Dark maroon */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.academics-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.academics-table ol {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.academics-table li {
+    text-align: left;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+#mor-semester-details {
+    color: #652b7c;
+}
+
+h4 {
+    margin-left: 45px;
+}
+
+.phd-programme-details {
+    padding-left: 30px;
+}
+
+.phd-programme-details h4 {
+    padding-top: 5px;
+}
+
+.phd-programme-details p {
+    padding-left: 35px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-left: 50px;
+}
+
+.faculty-directory {
+    padding: 0px 20px;
+
+}
+
+.faculty-directory .about-title {
+    font-size: 28px;
+    color: #652b7c;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #652b7c;
+    padding-bottom: 8px;
+}
+
+.faculty-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.faculty-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+
+}
+
+.faculty-card:hover {
+    transform: translateY(-6px);
+}
+
+.faculty-photo {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 0px;
+}
+
+.faculty-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 4px;
+}
+
+.faculty-designation {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.faculty-card p {
+    font-size: 14px;
+    color: #444;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.faculty-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #652b7c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.faculty-button:hover {
+    background-color: #652b7c;
+}
+
+
+/* Staff */
+
+.staff-directory {
+    padding: 0px 20px;
+
+}
+
+.staff-directory .about-title {
+    font-size: 28px;
+    color: #652b7c;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #652b7c;
+    padding-bottom: 8px;
+}
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+    gap: 30px;
+    justify-items: center;
+}
+
+.staff-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+
+}
+
+.staff-card:hover {
+    transform: translateY(-6px);
+}
+
+.staff-photo {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.staff-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 4px;
+}
+
+.staff-designation {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.staff-card p {
+    font-size: 14px;
+    color: #444;
+    margin: 5px 0;
+    text-align: center;
+}
+
+.staff-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #652b7c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.staff-button:hover {
+    background-color: #652b7c;
+}
+
+
