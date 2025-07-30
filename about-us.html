@@ -924,12 +924,12 @@
         </div>
         <div class="annual-brochure">
           <h3>2. 2024</h3>
-          <p>Annual brochoure of Department of Operational Research 2024-25<a href="#brochure"><i
+          <p>Annual brochoure of Department of Operational Research 2024-25<a href="document/Syllabus. Master of Operational Research.pdf"><i
                  class="fa-solid fa-file-pdf fa-2x"></i></a></p>
         </div>
         <div class="annual-brochure">
           <h3>3. 2023</h3>
-          <p>Annual brochoure of Department of Operational Research 2023-24 <a href="#brochure"><i
+          <p>Annual brochoure of Department of Operational Research 2023-24 <a href="document/Syllabus. Master of Operational Research.pdf"><i
                  class="fa-solid fa-file-pdf fa-2x"></i></a> </p>
         </div>
       </section>
@@ -990,11 +990,12 @@
       <div class="footer-box">
         <h4>Contact Us</h4>
         <p>
+          II Floor, Faculty of Mathematical Sciences <br>
           Department of Operational Research,<br>
           University of Delhi,<br>
           Delhi - 110007, India
         </p>
-        <p>📞 +91-11-2766XXXX</p>
+        <p>📞 +91 011 27666672, 27667725 x 1333 (EPABX)</p>
         <p>✉️ <a href="mailto:head@or.du.ac.in">head@or.du.ac.in</a></p>
 
         <div class="login-links">
@@ -1010,6 +1011,33 @@
            style="color: white; font-family: 'Times New Roman'; font-size: small;">SAKSHAM RAJ</a></p>
     </div>
   </footer>
+
+
+  <script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll(".slide");
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.remove("active");
+        if (i === index) slide.classList.add("active");
+      });
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    // Auto slide every 5 seconds (optional)
+    setInterval(nextSlide, 5000);
+  </script>
+
 
   <script>
     let currentFontSize = 16;
