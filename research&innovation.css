@@ -1,0 +1,365 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.breadcrumb a {
+  color: #800000;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.research-publications h1 {
+  color: #500080;
+  margin-bottom: 20px;
+}
+
+.publication-entry {
+  background: #fdfdfd;
+  border: 1px solid #ddd;
+  border-left: 4px solid #800000;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.publication-entry h2 {
+  margin-top: 0;
+  color: #800000;
+}
+
+.publication-entry a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.publication-entry a:hover {
+  color: #004499;
+}
+
+.sidebar {
+  background: #fceaea;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  color: #500080;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  color: #800000;
+  text-decoration: underline;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Main Menu UL */
+.about-menu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.about-menu details ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.about-menu details li a {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.about-menu details li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.about-menu details summary {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-menu details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  font-size: 0.8rem;
+  transition: transform 0.3s;
+}
+
+.about-menu details[open] summary::before {
+  content: '▼';
+}
+
+.committees p {
+  font-weight: lighter;
+}
+
+
+.top-full-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* optional */
+}
+
+
+.pointers {
+  padding-left: 20px;
+  list-style-type: disc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 1rem;
+}
+
+.pointers li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 400;
+}
+
+/* Publications Section */
+.publications {
+  font-family: 'Segoe UI', sans-serif;
+  /* padding: 2rem 1rem; */
+}
+
+/* Details Summary Heading */
+details summary {
+  cursor: pointer;
+  align-items: left;
+  list-style: none;
+  /* Remove default marker */
+  padding-left: 1.5rem;
+  /* Space for custom marker */
+  position: relative;
+}
+
+details summary span {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e23744;
+}
+
+details {
+  position: relative;
+}
+
+details summary::before {
+  content: "▶";
+  /* Use ▼ for expanded state with JS if needed */
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  font-size: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Rotate marker when open */
+details[open] summary::before {
+  content: "▼";
+}
+
+/* Publication List */
+.pub-list {
+  list-style-type: disc;
+  padding-left: 2rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.pub-list li {
+  margin-bottom: 1rem;
+}
+
+/* Center the container horizontally */
+.pdf-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+/* Embedded PDF Styling */
+.pdf-container embed {
+  width: 100%;
+  height: 700px;
+  border: 5px double #ccc;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive tweak */
+@media (max-width: 768px) {
+  .pdf-container embed {
+    height: 500px;
+  }
+}
+
+.research-books {
+  /* background-color: rgb(255, 239, 239); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+  padding: 30px 20px;
+}
+
+.book-item:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3d005f;
+  margin-bottom: 5px;
+}
+
+.book-author {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+  word-spacing: initial-1px;
+
+}
+
+.book-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 400px;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Centers image and text horizontally */
+  text-align: center;
+}
+
+.book-cover {
+  width: 80%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.research-grants {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  margin: auto;
+}
+
+.research-grants ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.research-grants p {
+  margin-bottom: 0.7rem;
+}
+
+.thesis-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.thesis-table th,
+.thesis-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.thesis-table thead th {
+  background: radial-gradient(circle, #652b7c 40%, #d15eff 100%);
+  /* Dark maroon */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.thesis-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.thesis-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.phd-awarded i {
+  font-size: 32px;
+  /* or any px/rem size */
+  color: #020202a3;
+  /* optional: red color for PDF */
+  padding-left: 12px;
+}
+
+.phd-awarded p {
+  padding-left: 2px;
+}

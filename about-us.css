@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/* Main Menu UL */
+.about-menu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0px 0px 0px 20px;
+}
+
+.about-menu li,
+.about-menu summary {
+  padding: 5px 10px;
+  font-weight: 500;
+  color: #3d005f;
+  cursor: pointer;
+}
+
+.about-menu li a,
+.about-menu summary {
+  text-decoration: none;
+  display: block;
+}
+
+.about-menu li a:hover,
+.about-menu summary:hover {
+  background-color: #d15eff;
+  color: #000;
+}
+
+.about-menu details ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.about-menu details li a {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.about-menu details li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+.about-content {
+  flex: 1;
+  margin-left: 20px;
+  background-color: #ffffff;
+  overflow-y: auto;
+  padding: 0px 20px 20px 20px;
+  max-width: 100%;
+  top: 200px;
+  scroll-margin-top: 200px;
+}
+
+.about-title {
+  font-size: 2rem;
+  color: #600080;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  margin-bottom: 18px;
+  font-size: 1.02rem;
+  text-align: justify;
+}
+
+.about-signature {
+  color: #590a79;
+  margin-top: 40px;
+}
+
+.pointers {
+  padding-left: 20px;
+  list-style-type: disc;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 1rem;
+}
+
+.pointers li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+}
+
+.ranking-section {
+  padding: 20px;
+}
+
+.ranking-section h2 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.accomplishment-category {
+  margin-bottom: 2rem;
+}
+
+.accomplishment-category h3 {
+  color: #652b7c;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.annual-reports-container {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  gap: 5px;
+}
+
+.annual-report {
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+.annual-report h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.annual-report p {
+  padding-left: 25px;
+}
+
+.annual-brochure i {
+  font-size: 32px;
+  /* or any px/rem size */
+  color: #020202a3;
+  /* optional: red color for PDF */
+  padding-left: 25px;
+}
+
+.annual-brochure p {
+  padding-left: 25px;
+}
+
+
+/* Main Menu UL */
+.about-menu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.about-menu li,
+.about-menu summary {
+  padding: 5px 10px;
+  font-weight: 500;
+  color: #3d005f;
+  cursor: pointer;
+}
+
+.about-menu li a,
+.about-menu summary {
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  font-size: large;
+}
+
+.about-menu li a:hover,
+.about-menu summary:hover {
+  background: linear-gradient(to bottom right, #fae1ff, #db80ff);
+  /* color: white; */
+  transform: translateY(-6px);
+}
+
+.about-menu details ul {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.about-menu details li a {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.about-menu details li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.about-menu details summary {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+.about-menu details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: 8px;
+  font-size: 0.8rem;
+  transition: transform 0.3s;
+}
+
+.about-menu details[open] summary::before {
+  content: '▼';
+}
+
+/* Sidebar Styling */
+.about-sidebar {
+  width: 350px;
+  background-color: white;
+  background: linear-gradient(to bottom right, #fffdfd, #eab6ff);
+  padding: 25px 20px;
+  /* border-right: 20px double #d15eff;
+  border-bottom: 20px solid #d15eff; */
+  border-right: 20px double #652b7c;
+  border-bottom: 20px solid #d15eff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: auto;
+  color: white;
+  /* Sticky positioning */
+  position: sticky;
+  top: 200px;
+
+  margin-bottom: 10px;
+  /* Scrollbar on overflow */
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+
+  /* Rounded corners and soft shadow */
+  box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 10px 50px 225px 85px;
+  z-index: 100;
+
+  /* Smooth animation for hover */
+  transition: all 0.4s ease-in-out;
+
+  overflow-y: auto;
+  /* ensures scroll works */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+}
+
+/* 🎯 Stylish Hover Effect */
+.about-sidebar:hover {
+  transform: translate(5px, -5px);
+  margin: 1px;
+  /* Lift and shift */
+  background-color: rgb(241, 241, 241);
+  box-shadow: 2px 6px 15px 10px rgba(0, 0, 0, 0.1);
+  /* Add depth */
+  border-right: 8px solid #652b7c;
+  border-bottom: 28px solid  #d15eff;
+}
+
+.ranking-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.ranking-table th,
+.ranking-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.ranking-table thead th {
+  background: radial-gradient(circle, #652b7c 40%, #d15eff 100%);
+  /* Dark maroon */
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.ranking-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ranking-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+
+/* Position from top fixed */
+
+/* .about-content {
+  position: fixed;
+  top: 225px;
+  right: 0; 
+  bottom: 0; 
+  width: 79%;
+  overflow-y: auto; 
+  padding: 20px; 
+  float: right;
+}
+ */
+
+
+/* Image Slider (Campus) */
+
+.slider-container {
+  position: relative;
+  width: 800px;
+  height: 520px;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  float: right;
+  margin-left: 20px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 800px;
+  height: 520px;
+}
+
+.slide {
+  min-width: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.prev {
+  left: 15px;
+}
+
+.next {
+  right: 15px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: hsla(283, 100%, 68%, 0.703);
+}
