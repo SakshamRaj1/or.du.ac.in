@@ -1,4 +1,4 @@
-Department of Operational Research — University of Delhi
+# **Department of Operational Research — University of Delhi**
 
 <p align="center">
 <img src="https://img.shields.io/badge/Project-University%20Website-1e40af?style=for-the-badge" alt="University Website" />
