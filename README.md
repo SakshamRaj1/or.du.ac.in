@@ -143,7 +143,9 @@ Check accessibility: Use semantic HTML, descriptive image alt text, readable col
 Optimize performance: Compress large images and GIFs, remove unused styles, and avoid unnecessary JavaScript.
 Validate links: Ensure internal navigation and asset paths work both locally and after deployment.
 Test before publishing: Preview the website in multiple browsers and screen sizes before merging changes.
-🌍 Deployment
+
+
+## 🌍 Deployment
 
 The project has a GitHub Pages deployment available at:
 ```
