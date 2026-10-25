@@ -1,6 +1,8 @@
 # or.du.ac.in
 
-Designed a website for Department of Operational Research, University of Delhi. A realistic template for University website using Modern UI.
+This webpage is designed for the Department of Operational Research, University of Delhi. It is a realistic template for a university website using a modern UI.
+
+The project includes HTML, CSS, JavaScript, and Python.
 
 ## Language composition
 
