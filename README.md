@@ -93,7 +93,7 @@ or.du.ac.in/
 
 This tree highlights the repository's visible structure. Individual scripts, assets, and configuration files may change as the project evolves.
 
-🚀 Getting Started
+##🚀 Getting Started
 
 You can run the website locally using any modern web browser.
 
@@ -102,13 +102,13 @@ Git
 A modern web browser such as Chrome, Firefox, Edge, or Safari
 A code editor such as Visual Studio Code (recommended)
 1. Clone the Repository
-bash
+```
 git clone https://github.com/SakshamRaj1/or.du.ac.in.git
-
+```
 2. Navigate to the Project Directory
-bash
+```
 cd or.du.ac.in
-
+```
 3. Open the Website
 
 Open index.html directly in your browser.
@@ -131,7 +131,7 @@ No package installation is required for basic static HTML previewing. Additional
 🧭 Website Sections
 
 The project contains dedicated pages for organizing departmental information.
-
+```
 Page	Description
 index.html	Main landing page
 about-us.html	Department overview
@@ -143,7 +143,7 @@ research&innovation.html	Research and innovation
 opportunities.html	Opportunities and related information
 alumni.html	Alumni information
 gallery.html	Gallery and visual content
-
+```
 The header and footer files provide a starting point for maintaining consistent website elements across pages.
 
 🔧 Development and Customization
@@ -162,9 +162,9 @@ Test before publishing: Preview the website in multiple browsers and screen size
 🌍 Deployment
 
 The project has a GitHub Pages deployment available at:
-
+```
 https://sakshamraj1.github.io/or.du.ac.in/
-
+```
 To publish updates through GitHub Pages:
 
 Push your changes to the GitHub repository.
@@ -175,7 +175,7 @@ Visit the deployed website and check that the changes appear correctly.
 
 The exact deployment process depends on the repository's current GitHub Pages configuration.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome.
 
@@ -188,14 +188,14 @@ git checkout -b feature/your-improvement
 
 Make your changes and test them locally.
 Commit your work.
-bash
+```
 git add .
 git commit -m "Add: describe your improvement"
-
+```
 Push your branch.
-bash
+```
 git push origin feature/your-improvement
-
+```
 Open a pull request describing the changes and their purpose.
 Contribution Guidelines
 Keep the existing project structure organized.
