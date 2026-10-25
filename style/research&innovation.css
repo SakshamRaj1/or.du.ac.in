@@ -1,0 +1,82 @@
+/* Research and innovation: publications, books, grants, theses. */
+
+.content-container { max-width: 50rem; margin: 0 auto; padding: 1.25rem; }
+.breadcrumb { margin-bottom: 1rem; font-size: 0.9rem; color: var(--muted); }
+.breadcrumb a { color: var(--link); }
+.research-publications h1 { margin-bottom: 1.25rem; color: var(--heading); }
+
+.publication-entry {
+  margin-bottom: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: var(--surface-2);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--primary);
+  border-radius: 0;
+}
+.publication-entry h2 { margin-top: 0; color: var(--heading); }
+.publication-entry a { color: var(--link); text-decoration: underline; }
+
+.sidebar { padding: 1.25rem; background: var(--tint); border-left: 1px solid var(--line); }
+.sidebar h2 { margin-top: 0; color: var(--heading); }
+.sidebar ul { padding-left: 0; list-style: none; }
+.sidebar li { margin-bottom: 0.6rem; }
+.sidebar a { color: var(--text); }
+.sidebar a:hover { color: var(--link); text-decoration: underline; }
+
+.publications { font-family: inherit; }
+.pub-list { padding-left: 1.5rem; font-size: 0.97rem; line-height: 1.6; list-style: disc; text-align: left; }
+.pub-list li { margin-bottom: 0.9rem; }
+.pub-list li::marker { color: var(--primary); }
+
+.pdf-container { max-width: 1400px; margin: 0 auto; text-align: center; padding: 0; }
+.pdf-container embed {
+  display: block;
+  width: 100%;
+  height: 44rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+
+.research-books {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+  gap: 2rem 1.75rem;
+  padding: 0.5rem 0 1.5rem;
+}
+.book-item {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  min-width: 0;
+  padding: 0;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+}
+.book-item:hover { transform: none; box-shadow: none; }
+.book-cover {
+  width: 100%;
+  height: auto;
+  margin: 0 0 0.85rem;
+  object-fit: contain;
+  object-position: left bottom;
+  background: var(--surface-2);
+  border-radius: var(--radius);
+}
+.book-title { margin: 0 0 0.35rem; font-size: 1.05rem; line-height: 1.3; font-weight: 600; color: var(--heading); }
+.book-author { font-size: 0.92rem; line-height: 1.45; color: var(--muted); text-align: left !important; word-spacing: normal; }
+
+.research-grants { margin: 0; font-family: inherit; line-height: 1.7; }
+.research-grants ul { padding-left: 1.5rem; list-style: disc; }
+.research-grants p { margin-bottom: 0.7rem; }
+
+.phd-awarded i { padding-left: 0.5rem; font-size: 1.6rem; color: var(--primary); vertical-align: middle; }
+.phd-awarded p { padding-left: 0; }
+
+@media (max-width: 700px) {
+  .pdf-container embed { height: 32rem; }
+}

@@ -1,0 +1,48 @@
+/* Academics: programme details, semester blocks, e-resources. */
+
+.MOR-programme-details,
+.phd-programme-details { padding-left: 0; }
+.MOR-programme-details h4,
+.phd-programme-details h4 { padding-top: 0.25rem; }
+.MOR-programme-details p,
+.phd-programme-details p { padding-left: 0; margin-bottom: 0.75rem; }
+
+.grand_CGPA {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  color: var(--text);
+  background: var(--tint);
+  border-left: 4px solid var(--primary);
+  border-radius: 0;
+}
+.grand_CGPA p { margin-bottom: 0.4rem; }
+
+#mor-semester-details { color: var(--heading); }
+#mor-semester-1,
+#mor-semester-2,
+#mor-semester-3,
+#mor-semester-4 {
+  display: block;
+  margin: 2.25rem 0 0.75rem;
+  padding: 0 0 0 0.85rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: var(--heading);
+  background: none;
+  border: 0;
+  border-left: 4px solid var(--primary);
+  border-radius: 0;
+}
+
+.resources-section { padding: 0; }
+.resources-section h3 {
+  margin: 2rem 0 0.75rem;
+  padding-left: 0.85rem;
+  font-size: 1.25rem;
+  color: var(--heading);
+  border-left: 4px solid var(--primary);
+}
+.resource-list { padding-left: 1.4rem; list-style: disc; line-height: 1.6; color: var(--text); }
+.resource-list li { margin-bottom: 0.7rem; }
+.resource-list li::marker { color: var(--primary); }
+.resource-list a { color: var(--link); font-weight: 600; text-decoration: underline; text-underline-offset: 0.18em; }

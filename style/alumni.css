@@ -1,0 +1,58 @@
+/* Alumni directory */
+
+.alumni-directory { padding: 0; }
+
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 13.5rem), 1fr));
+  gap: 2rem 1.5rem;
+  justify-items: stretch;
+}
+
+.alumni-card {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  min-width: 0;
+  padding: 0;
+  text-align: left;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+}
+.alumni-card:hover { transform: none; border: 0; border-radius: 0; }
+
+.alumni-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 1 / 1;
+  margin: 0 0 0.8rem;
+  object-fit: cover;
+  object-position: top;
+  background: var(--surface-2);
+  border-radius: var(--radius);
+}
+.alumni-name { margin: 0 0 0.15rem; font-size: 1.1rem; line-height: 1.25; color: var(--heading); }
+.alumni-designation { margin: 0 0 0.5rem; color: var(--muted); font-size: 0.92rem; font-weight: 600; line-height: 1.4; }
+.alumni-card p { margin: 0; font-size: 0.9rem; color: var(--text); text-align: left; }
+.alumni-info { margin: 0 0 0.75rem; font-size: 0.9rem; line-height: 1.4; color: var(--text); text-align: left; }
+.alumni-info p { margin: 0; }
+.alumni-button {
+  align-self: flex-start;
+  display: inline-block;
+  margin-top: auto;
+  padding: 0.4rem 0.9rem;
+  color: var(--link) !important;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: none;
+  border: 1px solid var(--link);
+  border-radius: var(--radius);
+  transition: background-color 0.15s, color 0.15s;
+}
+.alumni-button:hover { color: var(--on-link) !important; background: var(--link); text-decoration: none; }

@@ -1,0 +1,57 @@
+/* About us: campus slider, ranking, accomplishments, reports.
+   Shared layout, tables and typography live in index.css. */
+
+.slider-container {
+  position: relative;
+  width: min(100%, 46rem);
+  aspect-ratio: 3 / 2;
+  height: auto;
+  margin: 0 0 1.75rem;
+  overflow: hidden;
+  background: var(--primary-deep);
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+.slider-container .slider { position: relative; display: block; width: 100%; height: 100%; }
+.slider-container .slide { display: none; min-width: 0; width: 100%; height: 100%; object-fit: cover; }
+.slider-container .slide.active { display: block; animation: campus-in 0.6s ease both; }
+.slider-container .prev,
+.slider-container .next {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0;
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1;
+  background: rgba(var(--scrim), 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+.slider-container .prev { left: 0.75rem; }
+.slider-container .next { right: 0.75rem; }
+.slider-container .prev:hover,
+.slider-container .next:hover { background: rgba(var(--scrim), 0.9); border-color: #fff; }
+.slider-container :focus-visible { outline-color: #fff; }
+@keyframes campus-in { from { opacity: 0.4; } to { opacity: 1; } }
+
+.ranking-section { padding: 0; }
+.ranking-section h2 { margin-bottom: 0.5rem; font-size: 1.35rem; color: var(--heading); }
+
+.accomplishment-category { margin-bottom: 2rem; }
+.accomplishment-category h3 { margin: 2rem 0 0.6rem; font-size: 1.3rem; color: var(--heading); }
+
+.annual-reports-container { display: block; width: 100%; margin-top: 1rem; }
+.annual-report,
+.annual-brochure { margin: 0 0 1.5rem; padding: 0; }
+.annual-report h3,
+.annual-brochure h3 { margin: 0 0 0.35rem; font-size: 1.15rem; }
+.annual-report p,
+.annual-brochure p { padding-left: 0; margin-bottom: 0; }
+.annual-brochure i { padding-left: 0.5rem; font-size: 1.6rem; color: var(--primary); vertical-align: middle; }

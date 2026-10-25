@@ -1,0 +1,82 @@
+/* People: faculty and staff directories. */
+
+.faculty-directory,
+.staff-directory { padding: 0; }
+
+.faculty-grid,
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 12.5rem), 1fr));
+  gap: 2.25rem 1.75rem;
+  justify-items: stretch;
+}
+
+.faculty-card,
+.staff-card {
+  display: block;
+  width: auto;
+  min-width: 0;
+  padding: 0;
+  text-align: left;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
+}
+.faculty-card:hover,
+.staff-card:hover { transform: none; }
+
+.faculty-photo,
+.staff-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  aspect-ratio: 4 / 5;
+  margin: 0 0 0.9rem;
+  object-fit: cover;
+  object-position: top;
+  background: var(--surface-2);
+  border-radius: var(--radius);
+}
+
+.faculty-name,
+.staff-name {
+  margin: 0 0 0.15rem;
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: var(--heading);
+}
+.faculty-designation,
+.staff-designation {
+  margin: 0 0 0.6rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.faculty-card p,
+.staff-card p {
+  margin: 0 0 0.2rem;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-align: left;
+  line-height: 1.45;
+}
+
+.faculty-button,
+.staff-button {
+  display: inline-block;
+  margin: 0.6rem 0.4rem 0 0;
+  padding: 0.4rem 0.9rem;
+  color: var(--link);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: none;
+  border: 1px solid var(--link);
+  border-radius: var(--radius);
+  transition: background-color 0.15s, color 0.15s;
+}
+.faculty-button:hover,
+.staff-button:hover { color: var(--on-link); background: var(--link); text-decoration: none; }
+.faculty-card p + .faculty-button { margin-top: 0.75rem; }
