@@ -128,29 +128,13 @@ Replace or add website visuals in the img/ and gif/ directories.
 
 No package installation is required for basic static HTML previewing. Additional dependencies may be needed if individual scripts or development workflows require them.
 
-🧭 Website Sections
-
-The project contains dedicated pages for organizing departmental information.
-```
-Page	Description
-index.html	Main landing page
-about-us.html	Department overview
-academics.html	Academic information
-admission.html	Admissions-related content
-people.html	Departmental people and personnel
-administration.html	Administrative information
-research&innovation.html	Research and innovation
-opportunities.html	Opportunities and related information
-alumni.html	Alumni information
-gallery.html	Gallery and visual content
-```
 The header and footer files provide a starting point for maintaining consistent website elements across pages.
 
 🔧 Development and Customization
 
 If you want to build on this project, consider the following workflow:
 
-**Flask backend Enthusiants are welcomed!!**
+## **Flask backend Enthusiants are welcomed!!**
 
 Understand the existing structure: Review the HTML pages and their linked stylesheets, scripts, and assets.
 Keep components consistent: Maintain a consistent navigation structure and footer across the website.
@@ -213,7 +197,7 @@ Information displayed in a demonstration may be illustrative and should be verif
 Users should consult the official Department of Operational Research website for authoritative departmental information and announcements.
 📄 License
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Saksham Raj
 
