@@ -17,7 +17,7 @@ A modern, university-style website concept designed for the Department of Operat
 <a href="https://github.com/SakshamRaj1/or.du.ac.in"><strong>📂 View Source Code</strong></a>
 </p>
 
-📖 About the Project
+## 📖 About the Project
 
 This is a website design project created for the Department of Operational Research at the University of Delhi. It aims to present departmental information through a clean, modern, and accessible university-style web interface.
 
@@ -27,7 +27,7 @@ Built primarily with HTML, CSS, and JavaScript, the project serves as a front-en
 
 Note: This repository is an independently developed website concept. It should not be considered the official website or an official communication channel of the University of Delhi.
 
-✨ Features
+## ✨ Features
 Modern UI: A contemporary website layout inspired by university and academic portals.
 Multi-page structure: Separate pages for different departmental sections.
 Academic information: Dedicated sections for academics and admissions.
@@ -39,7 +39,7 @@ Media assets: Organized image and GIF directories for website visuals.
 Front-end customization: HTML, CSS, and JavaScript files that can be modified to suit different requirements.
 GitHub Pages hosting: A publicly accessible deployment for previewing the website.
 
-🖥️ Live Demo
+## 🖥️ Live Demo
 
 Explore the deployed website:
 
@@ -49,7 +49,7 @@ https://sakshamraj1.github.io/or.du.ac.in/
 
 The live demo provides a convenient way to preview the website without installing anything locally.
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 Technology	Purpose
 HTML5	Page structure and content
 CSS3	Layout, styling, and visual presentation
