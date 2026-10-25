@@ -19,13 +19,14 @@ A modern, university-style website concept designed for the Department of Operat
 
 📖 About the Project
 
-or.du.ac.in is a website design project created for the Department of Operational Research at the University of Delhi. It aims to present departmental information through a clean, modern, and accessible university-style web interface.
+This is a website design project created for the Department of Operational Research at the University of Delhi. It aims to present departmental information through a clean, modern, and accessible university-style web interface.
 
 The project provides a multi-page website structure for organizing academic information, admissions, faculty and administration details, research activities, alumni information, opportunities, and departmental updates.
 
 Built primarily with HTML, CSS, and JavaScript, the project serves as a front-end website template that can be explored, customized, and extended for academic or institutional use.
 
 Note: This repository is an independently developed website concept. It should not be considered the official website or an official communication channel of the University of Delhi.
+
 ✨ Features
 Modern UI: A contemporary website layout inspired by university and academic portals.
 Multi-page structure: Separate pages for different departmental sections.
@@ -37,6 +38,7 @@ Reusable components: Separate header and footer files for organizing shared webs
 Media assets: Organized image and GIF directories for website visuals.
 Front-end customization: HTML, CSS, and JavaScript files that can be modified to suit different requirements.
 GitHub Pages hosting: A publicly accessible deployment for previewing the website.
+
 🖥️ Live Demo
 
 Explore the deployed website:
@@ -145,6 +147,8 @@ The header and footer files provide a starting point for maintaining consistent 
 
 If you want to build on this project, consider the following workflow:
 
+**Flask backend Enthusiants are welcomed!!**
+
 Understand the existing structure: Review the HTML pages and their linked stylesheets, scripts, and assets.
 Keep components consistent: Maintain a consistent navigation structure and footer across the website.
 Improve responsiveness: Test layouts on mobile, tablet, and desktop screen sizes.
@@ -205,10 +209,6 @@ The presence of departmental names or institutional references does not imply en
 Information displayed in a demonstration may be illustrative and should be verified against official university sources before being relied upon.
 Users should consult the official Department of Operational Research website for authoritative departmental information and announcements.
 📄 License
-
-No license has been specified in this README.
-
-Before reusing, modifying, or redistributing the project, check whether the repository contains a LICENSE file. If you intend to make the project open source, consider adding an appropriate license and updating this section accordingly.
 
 👨‍💻 Author
 
