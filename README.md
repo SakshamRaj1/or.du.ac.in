@@ -202,7 +202,9 @@ Users should consult the official Department of Operational Research website for
 Saksham Raj
 
 GitHub: @SakshamRaj1
+
 Repository: or.du.ac.in
+
 Live Demo: GitHub Pages
 
 <p align="center">
