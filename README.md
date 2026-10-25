@@ -43,7 +43,9 @@ GitHub Pages hosting: A publicly accessible deployment for previewing the websit
 
 Explore the deployed website:
 
+```
 https://sakshamraj1.github.io/or.du.ac.in/
+```
 
 The live demo provides a convenient way to preview the website without installing anything locally.
 
