@@ -63,6 +63,7 @@ The repository is primarily composed of HTML, with CSS and JavaScript supporting
 The repository is organized into multiple pages and supporting asset directories.
 
 text
+```
 or.du.ac.in/
 ├── .github/
 │   └── workflows/              # GitHub workflow configurations
@@ -86,7 +87,7 @@ or.du.ac.in/
 ├── people.html                 # People and personnel
 ├── research&innovation.html    # Research and innovation
 └── README.md                   # Project documentation
-
+```
 
 This tree highlights the repository's visible structure. Individual scripts, assets, and configuration files may change as the project evolves.
 
