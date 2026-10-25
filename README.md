@@ -60,7 +60,7 @@ GitHub Pages	Website deployment and hosting
 
 The repository is primarily composed of HTML, with CSS and JavaScript supporting the website's presentation and behavior.
 
-📁 Project Structure
+## 📁 Project Structure
 
 The repository is organized into multiple pages and supporting asset directories.
 
@@ -93,7 +93,7 @@ or.du.ac.in/
 
 This tree highlights the repository's visible structure. Individual scripts, assets, and configuration files may change as the project evolves.
 
-##🚀 Getting Started
+## 🚀 Getting Started
 
 You can run the website locally using any modern web browser.
 
@@ -189,7 +189,8 @@ Follow consistent HTML, CSS, and JavaScript formatting.
 Test links, assets, and responsive layouts before submitting changes.
 Avoid committing credentials, private information, or unrelated files.
 Use clear commit messages and concise pull request descriptions.
-🔒 Disclaimer
+
+## 🔒 Disclaimer
 
 This project is an independently created website design and development project intended for demonstration, educational, and development purposes.
 
